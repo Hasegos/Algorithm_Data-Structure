@@ -20,12 +20,12 @@
  
 | 번호 | 체크 | 문제 | 풀이 |
 | --- | --- | -------------------- | --- |
-| 01 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [A+B](https://www.acmicpc.net/problem/1000) |[Java](https://github.com/Hasegos/Algorithm/blob/master/BaekJoon/solved/Class_01/_01_1000_a_plus_b/Main.java) |
+| 01 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [A+B](https://www.acmicpc.net/problem/1000) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_01/_01_1000_a_plus_b/Main.java) |
 | 02 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [A-B]() |[Java]() |
 | 03 |  | [A/B]() |[Java]() |
 | 04 |  | [두 수 비교하기]() |[Java]() |
 | 05 |  | [별 찍기 - 1]() |[Java]() |
-| 06 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [검증수](https://www.acmicpc.net/problem/2475) |[Java](https://github.com/Hasegos/Algorithm/blob/master/BaekJoon/solved/Class_01/_06_2475_number_of_verifications/Main.java) |
+| 06 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [검증수](https://www.acmicpc.net/problem/2475) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_01/_06_2475_number_of_verifications/Main.java) |
 | 07 |  | [Hello World]() |[Java]() |
 | 08 |  | [구구단]() |[Java]() |
 | 09 |  | [N찍기]() |[Java]() |
@@ -51,7 +51,7 @@
 | 29 |  | [단어의 개수]() |[Java]() |
 | 30 |  | [숫자의 개수]() |[Java]() |
 | 31 |  | [문자열 반복]() |[Java]() |
-| 32 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [음계](https://www.acmicpc.net/problem/2920) |[Java](https://github.com/Hasegos/Algorithm_Data-Structure/blob/master/BaekJoon/solved/Class_01/_32_2920_scale/Main.java) |
+| 32 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [음계](https://www.acmicpc.net/problem/2920) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_01/_32_2920_scale/Main.java) |
 | 33 |  | [나머지]() |[Java]() |
 | 34 |  | [OX퀴즈]() |[Java]() |
 | 35 |  | [알파벳 찾기]() |[Java]() |
@@ -66,15 +66,15 @@
 
 | 번호 | 체크 | 문제 | 풀이 |
 | --- | --- | -------------------- | --- |
-| 01 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [직각삼각형](https://www.acmicpc.net/problem/4153) |[Java](https://github.com/Hasegos/Algorithm_Data-Structure/blob/master/BaekJoon/solved/Class_02/_01_4153_Right_Triangle/Main.java) |
+| 01 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [직각삼각형](https://www.acmicpc.net/problem/4153) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_01_4153_Right_Triangle/Main.java) |
 | 02 |  | [소수 찾기]() |[Java]() |
 | 03 |  | [분해합]() |[Java]() |
 | 04 |  | [벌집]() |[Java]() |
 | 05 |  | [블랙잭]() |[Java]() |
-| 06 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [Hashing](https://www.acmicpc.net/problem/15829) |[Java](https://github.com/Hasegos/Algorithm_Data-Structure/blob/master/BaekJoon/solved/Class_02/_06_15829_Hashing/Main.java) |
-| 07 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [팰린드롬수](https://www.acmicpc.net/problem/1259) |[Java](https://github.com/Hasegos/Algorithm_Data-Structure/blob/master/BaekJoon/solved/Class_02/_07_1259_Palindromic_Number/Main.java) |
+| 06 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [Hashing](https://www.acmicpc.net/problem/15829) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_06_15829_Hashing/Main.java) |
+| 07 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [팰린드롬수](https://www.acmicpc.net/problem/1259) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_07_1259_Palindromic_Number/Main.java) |
 | 08 |  | [평균]() |[Java]() |
-| 09 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |[Java](https://github.com/Hasegos/Algorithm_Data-Structure/blob/master/BaekJoon/solved/Class_02/_09_2609_Greatest_least/Main.java) |
+| 09 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_09_2609_Greatest_least/Main.java) |
 | 10 |  | [부녀회장이 될테야]() |[Java]() |
 | 11 |  | [달팽이는 올라가고 싶다]() |[Java]() |
 | 12 |  | [수 정렬하기 3]() |[Java]() |
