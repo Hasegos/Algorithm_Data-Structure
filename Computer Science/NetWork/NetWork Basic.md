@@ -24,7 +24,9 @@
 
 ## 지연시간
 지연 시간(latency)이란 **요청이 처리되는 시간을 말하며, 어떤 메세지가 두장치 사이 왕복하는 데 걸린 시간**을 말한다.  
-![174925223-3b4aceeb-8851-426c-8803-88333800578b (1)](https://github.com/Hasegos/Study_CS/assets/93961708/76f05c2c-2ee5-406d-b4db-4f69471e1e64)
+
+![174925223-3b4aceeb-8851-426c-8803-88333800578b (2)](https://github.com/Hasegos/Study_CS/assets/93961708/d84cc653-22ae-4e78-bfe6-8ddf72c126e2)
+
 
 
 
