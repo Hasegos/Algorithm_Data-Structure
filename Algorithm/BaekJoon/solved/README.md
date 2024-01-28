@@ -77,7 +77,7 @@
 | 09 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [최대공약수와 최소공배수](https://www.acmicpc.net/problem/2609) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_09_2609_Greatest_least/Main.java) |
 | 10 |  | [부녀회장이 될테야]() |[Java]() |
 | 11 |  | [달팽이는 올라가고 싶다]() |[Java]() |
-| 12 |  | [수 정렬하기 3]() |[Java]() |
+| 12 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [수 정렬하기 3](https://www.acmicpc.net/problem/10989) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_12_10989_Sorting_numbers_3/Main.java) |
 | 13 |  | [이항 계수 1]() |[Java]() |
 | 14 |  | [단어 정렬]() |[Java]() |
 | 15 |  | [영화감독 숌]() |[Java]() |
