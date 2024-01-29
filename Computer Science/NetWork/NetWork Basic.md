@@ -196,18 +196,49 @@ WAN은 광역 네트워크를 의미하며 **국가 또는 대륙 같은 더 넓
 
 ### ping
 
+ping(Packet INternet Groper)은 **네트워크 상태를 확인**하려는 **대상 노드를 향해 일정 크기의 패킷을 전송**한다.  
+ping을 통해 패킷 수신 상태와 도달까지의 시간, 노드까지 네트워크가 잘 연결되어있는지 확인할 수 있다.  
+TCP/IP 프로토콜 중에 **ICMP 프로토콜**을 통해 작동하며, ICMP를 차단하는 경우 ping 테스팅이 불가능하다.  
+**ping[IP 주소 또는 도메인 주소]** 로 실행
+
+![1 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/e6d3ef81-c648-4e01-a083-53f9b22a2d74)
+
 ---
+
 ### netstat
 
----
-### nslookup
+netstat은 **접속되어 있는 서비스들의 네트워크 상태를 표시**하는데 사용된다.  
+네트워크 접속, 라우팅 테이블, 네트워크 프로토콜 등 리스트를 보여준다.  
+
+![077_2 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/b1daca10-be1b-4f16-94a2-6b0d482012f6)
 
 ---
+
+### nslookup
+
+nslookup은 **DNS에 관련된 내용을 확인**하기 위해 쓰는 명령어이다.  
+특정 도메인에 매핑된 IP를 확인한다.  
+
+![078_1 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/d8c593ed-8c6c-481d-96c4-26fc6e898673)
+
+---
+
 ### tracert
+
+목저지 노드까지 **네트워크 경로 확인**할 때 사용되며 목적지 노드까지 구간들 중에서 **어느 구간에서 느려지는지 확인**이 가능하다.  
+윈도우에서는 tracert 이고 리눅스에서는 traceroute이다.
+
+![078_2 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/70975f8d-1aba-4bd7-a935-57e0984e4ce6)
 
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#네트워크-기초)
 
 <!---목차 6--->
 ## 네트워크 프로토콜 표준화
+
+네트워크 프로토콜이란 **다른 장치들끼리 데이터를 주고 받기 위해 설정된 공통된 인터페이스**이다.  
+개인에서 정한것이 아닌 IEEE 또는 IETF라는 표준화 단체가 이를 정한다.  
+**'서로 약속된'** 인터페이스인 HTTP라는 프로토콜로 데이터를 주고받을 수 있다.
+
+![079 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/1e6aba94-3c28-472f-9673-b89233fda3c4)
 
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#네트워크-기초)
