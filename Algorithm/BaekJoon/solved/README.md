@@ -80,8 +80,8 @@
 | 12 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [수 정렬하기 3](https://www.acmicpc.net/problem/10989) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_12_10989_Sorting_numbers_3/Main.java) |
 | 13 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [이항 계수 1](https://www.acmicpc.net/problem/11050) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_13_11050_binomial_coefficient/Main.java) |
 | 14 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [단어 정렬](https://www.acmicpc.net/problem/1181) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_14_1181_Word_Sort/Main.java) |
-| 15 |  | [영화감독 숌]() |[Java]() |
-| 16 |  | [팩토리얼 0의 개수]() |[Java]() |
+| 15 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [영화감독 숌](https://www.acmicpc.net/problem/1436) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_15_1436_Film_Director_Shom/Main.java) |
+| 16 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_16_1676_Number_of_factorial_0s/Main.java) |
 | 17 |  | [수 정렬하기 2]() |[Java]() |
 | 18 |  | [덩치]() |[Java]() |
 | 19 |  | [나이순 정렬]() |[Java]() |
