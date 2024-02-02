@@ -32,7 +32,7 @@ public class Main {
         }
         System.out.println(sb);
     }
-    // ArraysList로 O(n^2)으로 시간초과나는것을 최소로 O(n)만큼으로 만들어줄 수 있는 Collections사용하는 방법
+    // ArraysList로 O(n^2)으로 시간초과나는것을 최소로 O(nlog(n))만큼으로 만들어줄 수 있는 Collections사용하는 방법
     public static void TwoMethod(int N,BufferedReader bf, StringBuilder sb){
          ArrayList<Integer> list = new ArrayList<Integer>();
         
