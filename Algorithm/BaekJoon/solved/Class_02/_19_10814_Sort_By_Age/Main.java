@@ -59,7 +59,7 @@ public class Main {
         }
         System.out.println(sb);        
     }
-    // ArrayList를 이용해서 Collections.sort()하는 방법
+    // 방법 2. ArrayList를 이용해서 Collections.sort()하는 방법
     public static void TwoMethod(int N, StringBuilder sb, BufferedReader bf) throws IOException{
         // 해당 타입을 저장하는 class를 Nested Class로 선언
         ArrayList<Age_Person> list = new ArrayList<>();
