@@ -22,8 +22,6 @@ import java.util.Collections;
     Arrays.sort()를 재정의해서 사용하면된다.
     
     또는 ArrayList를 이용해서 재정의를 하자.
-
-
 */
 class X_Y{
     String x;
