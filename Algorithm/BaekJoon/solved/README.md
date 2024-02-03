@@ -88,7 +88,7 @@
 | 17 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [수 정렬하기 2](https://www.acmicpc.net/problem/2751) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_17_2751_Sorting_Numbers_2/Main.java) |
 | 18 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [덩치](https://www.acmicpc.net/problem/7568) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_18_7568_Big/Main.java) |
 | 19 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [나이순 정렬](https://www.acmicpc.net/problem/10814) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_19_10814_Sort_By_Age/Main.java) |
-| 20 |  | [좌표 정렬하기]() |[Java]() |
+| 20 | ![free-icon-checkmark-11411935 (2)](https://github.com/Hasegos/Algorithm/assets/93961708/df91df7b-bb5b-46d2-a8a4-988c2f351d31) | [좌표 정렬하기](https://www.acmicpc.net/problem/11650) |[Java](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/BaekJoon/solved/Class_02/_20_11650_Sort_Coordinates/Main.java) |
 | 21 |  | [좌표 정렬하기 2]() |[Java]() |
 | 22 |  | [요세푸스 문제 0]() |[Java]() |
 | 23 |  | [체스판 다시 칠하기]() |[Java]() |
