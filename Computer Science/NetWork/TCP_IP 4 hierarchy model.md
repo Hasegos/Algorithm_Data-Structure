@@ -7,6 +7,7 @@ TCP/IP 4계층은 네트워킹 범위에 따라 네 개의 **추상화 계층**�
 ## 계층 구조
 
 **TCP/IP 4계층 구조**
+
 ![1 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/88917d5e-96d6-4f5d-994a-ce31be31643c)
 
 **TCP/IP vs OSI**
@@ -18,6 +19,7 @@ TCP/IP 4계층은 네트워킹 범위에 따라 네 개의 **추상화 계층**�
 ex) TCP 를 UDP로 변경했다고 인터넷 브라우저를 다시 설치해야하는건 아님  
 
 **각 계층을 대표하는 스택**
+
 ![2 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/2e414a85-42e4-47d2-a3cc-5889302b05a4)
 
 ## 애플리케이션 계층
