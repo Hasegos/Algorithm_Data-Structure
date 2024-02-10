@@ -8,7 +8,7 @@
     * [HTTP]()
 
 * 추가 내용 정리
-    * [DNS]()
+    * [DNS](https://github.com/Hasegos/Study_CS/blob/master/Computer%20Science/NetWork/DNS.md)
     
 네트워크 정리된 곳들입니다.  
 클릭시 해당 주소로 넘어갑니다.
