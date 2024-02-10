@@ -29,7 +29,7 @@ public class Find_The_Maze_1 {
         }
         else{
             maze[x][y] = PATH_COLOUR;
-            if(findMazePath(x - 1, y) || findMazePath(x, y + 1), 
+            if(findMazePath(x - 1, y) || findMazePath(x, y + 1) 
               || findMazePath(x + 1, y) || findMazePath(x , y - 1)){
                 return true;
             }
