@@ -17,7 +17,7 @@ public class Find_The_Maze_1 {
     private static final int BLOCKED_COLOUR = 2; // red
     private static final int PATH_COLOUR = 3; // green
     
-    // 북 -> 동 -> 남 -> 서
+    // ??? -> ??? -> ??? -> ???
     public static boolean findMazePath(int x, int y){
         if(x< 0 || y < 0 || x >= N || y >= N)
             return false;
@@ -44,7 +44,7 @@ public class Find_The_Maze_1 {
     }
     
     /*
-    미로 찾기(Decision Problem)
+    ?????? ??????(Decision Problem)
     
     boolean findPath(int x,int y){
         if(x,y) is the exit
@@ -62,10 +62,10 @@ public class Find_The_Maze_1 {
         if(x,y) is the exit
             return true;
         else{
-            이미 가본 위치로 체크
+            ?????? ?????? ????????? ??????
             mark (x,y) as a visited cell;
             for each neighbouring cell (x', y') of (x,y) do
-                이미 방문된 위치가 아닌 경우에서만
+                ?????? ????????? ????????? ?????? ???????????????
                 if(x', y') is on the pathway and not visited
                     if findPath(x', y')
                         return true;
