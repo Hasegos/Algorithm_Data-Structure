@@ -9,7 +9,7 @@
 
 * 추가 내용 정리
     * [DNS](https://github.com/Hasegos/Study_CS/blob/master/Computer%20Science/NetWork/DNS.md)
-    * [포트와 포트번호 / 프로토콜 / HTTP]()
+    * [포트와 포트번호 / 프로토콜]()
     
 네트워크 정리된 곳들입니다.  
 클릭시 해당 주소로 넘어갑니다.
