@@ -111,10 +111,12 @@ HTTP 메시지를 클라이언트에서 **서버로 요청을 보낼 때 요청 
 ### HTTPS
 
 **HTTPS(HyperText Transfer Protocol over Secure Socket Layer)** 는 **보안 요소가 강화된 HTTP 프로토콜**이다.  
-**HTTPS**는 **SSL(Secure Socket Layer)** 또는 **TLS(Transport Layer Security)** **암호화 프로토콜**을 사용해 **안전하게 전송**이 가능하다.  
+**HTTPS**는 **SSL(Secure Socket Layer)** 또는 **TLS(Transport Layer Security)** **암호화 프로토콜**을 사용해 **안전하게 전송**이 가능하다.    
+그리고 데이터의 **무결성과 인증**이 보장이된다.  
 
-![5 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/118e4fd6-6eae-45d7-bd99-3bfa46dd0a21)
-데이터의 **무결성과 인증**이 보장이된다.
+![5 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/118e4fd6-6eae-45d7-bd99-3bfa46dd0a21)  
+
+
 
 
 
