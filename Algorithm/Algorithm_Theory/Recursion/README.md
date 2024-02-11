@@ -1,7 +1,14 @@
 # Recursion
+* 목차
+    * [미로 찾기](#미로-찾기)
+    * [Counting Cells in a Blob](#counting-cells-in-a-blob)
+    * [N Queens Problem](#n-queens-problem)
+    
 
-**자기 자신을 호출하는 함수**  
-**단점** : 자칫 잘못하면 무한루프에 빠질 수 있다.   
+## Recursion 이란
+
+**자기 자신을 호출하는 재귀함수**  
+**단점** : 자칫 잘못하면 **무한루프**에 빠질 수 있다.   
 
 ### 무한 루프에 빠지지 않으르면?  
 
@@ -60,3 +67,16 @@ Counting Cells in a Blob으로 Blob에서 이웃한 Cell의 갯수가 몇개인�
 ---
 
 ### N Queens Problem
+
+**현 위치에서 그전에 말을 둔 위치의 대각선과 일직선 상에 없도록 말을둔다** 
+
+![1 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/3f3f1ae7-b804-427e-bc71-307eb6e4a69b)
+
+즉, **상태공간 트리 깊이 우선 방식으로 탐색하여 해를 찾는 알고리즘**이다.  
+**"깊이우선탐색"** 을 말한다.  
+
+![2 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/d39d0505-0dc2-472c-a0a9-1d0e94f13b31)
+
+**상태공간 트리란** **찾는 해를 포함하는 트리**,  
+즉 **해가 존재한다면 그것은 반드시 이트리의 어떤 한 노드에 해당**한다.  
+따라서 이 트리를 체계적으로 탐색하면 해를 구할 수 있다.
