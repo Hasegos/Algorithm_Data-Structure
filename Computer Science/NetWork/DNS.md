@@ -1,6 +1,14 @@
 # DNS
+* 목차
+    * [DNS란](#dns란)
+    * [DNS 동작 방식](#dns-동작-방식)
+    * [DNS 서버의 계층 구조](#dns-서버의-계층-구조)
+
+## DNS란
 
 **DNS(Domain Name System)** 는 **도메인과 IP 주소의 매핑 정보**를 가지고 있는 시스템이다.  
+
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#dns)
 
 ## DNS 동작 방식
 
@@ -12,6 +20,8 @@
 ![1 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/ad7ccec3-b403-44cc-849a-28b220bdbb43)  
 
 일반 사용자가 DNS를 따로 설정하지 않고 인터넷 서비스 제공 업체가 제공하는정보를 받아서 사용한다.  
+
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#dns)
 
 ## DNS 서버의 계층 구조  
 
@@ -38,3 +48,5 @@
 
 **www<hi>.google.com** 조회 -> **'com' IP 주소 반환** -> **www<hi>.google.com 조회** -> **'google.com' IP 주소 반환**  
 -> **www<hi>.google.com 조회** -> **'www<hi>.google.com' IP 주소 반환** -> **반환 받은 IP 주소로 접속**
+
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#dns)
