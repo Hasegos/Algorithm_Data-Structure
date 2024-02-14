@@ -1,6 +1,8 @@
 <!--- 다함 --->
 # TCP/IP 4계층 모델
 
+* [네트워크 정리 이동](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science/NetWork)
+
 * 목차
     * [계층 구조](#계층-구조)
     * [애플리케이션 계층](#애플리케이션-계층)

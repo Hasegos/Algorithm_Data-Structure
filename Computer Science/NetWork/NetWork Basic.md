@@ -1,6 +1,9 @@
 <!--- 다함 --->
 
 # 네트워크 기초
+
+* [네트워크 정리 이동](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science/NetWork)
+
 * 목차
     * [네트워크란](#네트워크란)
     * [처리량과 지연시간](#처리량과-지연시간)

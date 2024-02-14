@@ -1,15 +1,22 @@
+<!---다함--->
 # DNS
+
+* [네트워크 정리 이동](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science/NetWork)
+
 * 목차
     * [DNS란](#dns란)
     * [DNS 동작 방식](#dns-동작-방식)
-    * [DNS 서버의 계층 구조](#dns-서버의-계층-구조)
+    * [DNS 서버의 계층 구조](#dns-서버의-계층-구조)    
 
+
+<!---목차 1--->
 ## DNS란
 
 **DNS(Domain Name System)** 는 **도메인과 IP 주소의 매핑 정보**를 가지고 있는 시스템이다.  
 
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#dns)
 
+<!---목차 2--->
 ## DNS 동작 방식
 
 1. 사용자가 웹브라우저의 주소 표시줄에 도메인을 입력한다.    
@@ -23,6 +30,7 @@
 
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#dns)
 
+<!---목차 3--->
 ## DNS 서버의 계층 구조  
 
 **DNS 서버**는 도메인을 체계적으로 관리하기 위해 **도메인과 IP 주소의 매핑 정보**를 **계층 구조로 분산해 저장**한다.  
