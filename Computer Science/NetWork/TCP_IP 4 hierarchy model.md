@@ -36,6 +36,8 @@ ex) TCP 를 UDP로 변경했다고 인터넷 브라우저를 다시 설치해야
 
 ![2 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/2e414a85-42e4-47d2-a3cc-5889302b05a4)
 
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#tcpip-4계층-모델)
+
 <!--- 목차 2 --->
 ## 애플리케이션 계층
 
@@ -46,7 +48,9 @@ ex) TCP 를 UDP로 변경했다고 인터넷 브라우저를 다시 설치해야
 **SSH** - 안전하게 운영을 위한 **암호화 네트워크 프로토콜**  
 **SMTP** - **전자 메일 전송**을 위한 인터넷 표준 통신 프로토콜  
 **DNS** - **도메인 이름과 IP 주소를 매핑**해주는 서버    
-  
+
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#tcpip-4계층-모델)
+
 <!--- 목차 3 --->      
 ## 전송 계층
 
@@ -112,11 +116,15 @@ TCP가 연결을 해제할 떄는 **4-웨이 핸드셰이크(4-way handshake)** 
 첫번째는 **지연 패킷이 발생할 경우를 대비**하기위해서이다.패킷이 늦게 도착해서 데이터 100일때 50만 들어올 수 있기 때문이다.  
 두번째는 두 장치가 **연결이 닫혔는지 확인**하기 위해서이다.
 
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#tcpip-4계층-모델)
+
 <!--- 목차 4 --->
 ## 인터넷 계층  
 
 인터넷(internet) 계층은 장치로부터 받은 **네트워크 패킷을 IP 주소로 지정된 목적지로 전송**하기위한 계층이다.   
 예로는 IP, ARP, ICMP가 있으며, 상대방이 제대로 받았는지에 대해 **보장하지않는 비연결형적인 특징**을 가지고있다.  
+
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#tcpip-4계층-모델)
 
 <!--- 목차 5 --->
 ## 링크 계층  
@@ -214,6 +222,7 @@ ex) **와이파이**, **BSS**, **ESS**
 
 **MAC 주소** : 컴퓨터나 노트북에 **네트워크를 연결하는 장치(LAN 카드)** 를 구별하기위한 **식별 번호**를 말한다.  
 
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#tcpip-4계층-모델)
 
 <!--- 목차 6 --->
 ## 계층 간 데이터 송수신 과정
@@ -244,6 +253,8 @@ ex) **와이파이**, **BSS**, **ESS**
 캡슐화된 데이터가 올라오면서 **프레임화된 데이터를 다시 패킷화**를 거쳐서 **세그먼트, 데이터그램화를 거쳐 메세지화**가되는 **비캡슐화 과정**이 일어난다.  
 이후 사용자에게 애플리케이션의 **PDU 메세지**로 전달한다.  
 
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#tcpip-4계층-모델)
+
 <!--- 목차 7 --->
 ## PDU
 
@@ -259,4 +270,4 @@ ex) **와이파이**, **BSS**, **ESS**
 PDU 중 **아래 계층인 비트로 송수신하는 것이 모든 PDU중 가장 빠르고 효율성이 높다.**  
 하지만 **애플리케이션**에서는 **문자열을 기반으로 송수신**하며, 그 이유는 **헤더에 authorization값 등 다른 값들을 넣는 확장이 쉽기** 때문이다.  
 
-
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#tcpip-4계층-모델)
