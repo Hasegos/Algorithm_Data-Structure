@@ -1,5 +1,7 @@
 # 네트워크 정리
 
+* [CS 지식 (DB, 네트워크, OS) 저장소 이동](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science)
+
 * 목차
     * [네트워크의 기초](https://github.com/Hasegos/Study_CS/blob/master/Computer%20Science/NetWork/NetWork%20Basic.md)
     * [TCP/IP 4계층 모델](https://github.com/Hasegos/Study_CS/blob/master/Computer%20Science/NetWork/TCP_IP%204%20hierarchy%20model.md)
