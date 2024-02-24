@@ -3,7 +3,7 @@
 * [CS 지식 (DB, 네트워크, OS) 저장소 이동](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science)
 
 - 목차
-    * [운영체제 기초]()             
+    * [운영체제 기초](https://github.com/Hasegos/Study_CS/blob/master/Computer%20Science/Operating%20System/OS_Basic.md)             
     
 - 추가내용 정리
     * [뮤텍스(mutex)]()
