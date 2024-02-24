@@ -44,7 +44,7 @@
 
 ### **계층 구조**
 
-![3 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/e20171f2-3351-46c6-bec6-c7d4c055fe42)
+![1 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/5e6bc978-4c22-4734-8dd4-5647babc3111)
 
 하위 계층 DNS 서버의 IP 주소를 반환 받는 과정
 
@@ -52,7 +52,7 @@
 
 ### **DNS 서버의 IP 주소 조회 과정**
 
-![2 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/a39181f0-05d3-495e-a4e5-ae39ebc94e81)
+![1 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/07f999a8-da56-445f-80af-3592c3944975)
 
 **www<hi>.google.com** 조회 -> **'com' IP 주소 반환** -> **www<hi>.google.com 조회** -> **'google.com' IP 주소 반환**  
 -> **www<hi>.google.com 조회** -> **'www<hi>.google.com' IP 주소 반환** -> **반환 받은 IP 주소로 접속**
