@@ -150,7 +150,7 @@
 >이 경우는 A는 B 앞에 있고 B는 A 뒤와 C 앞에 있다고 보는 방식이다.    
 >
 >### ArrayList vs LinkedList
->![1 (1)](https://github.com/Hasegos/Start_JAVA/assets/93961708/22b40f8f-0dd5-4abe-8b35-a47292692c9c)
+>![1 (1)](https://github.com/Hasegos/backendStudy/assets/93961708/a0b98864-0822-4b14-bfb5-66843d4de1c7)
 >
 >여기까지 LinkedList를 가볍게 봤다.  
 >**LinkedList 자체가 list 이면서 Queue, Deque이다.**  
