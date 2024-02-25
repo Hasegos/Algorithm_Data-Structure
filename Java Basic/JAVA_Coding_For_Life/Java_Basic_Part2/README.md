@@ -27,7 +27,7 @@
 >언어의 기본적인 논리 연산자가 존재한다.  
 >총 3가지로 (OR , AND , NOT) 존재한다.   
 >아래에 3가지 경우를 살펴보자.  
->
+>```java
 >      일반적으로 두개를 비교할 때, 4가지 경우가 존재한다.  
 >                
 >                A 가 참, B 가 참
@@ -74,7 +74,7 @@
 >             A가 true
 >
 >             결과 false
->                              
+>```                              
 >        위와 같은 결과에서 참이면 거짓으로, 거짓이면 참으로라는 결과를 볼 수 있다..
 
 #
@@ -129,7 +129,7 @@
 >### **전자 일 경우**  
 >단순히 **원초적인 타입(Primitive Type)** 일때 사용한다.  
 >ex) int, String, char, float, double, boolean, short 등..  
-> 
+>```java 
 >                         code            name                value
 >    
 >        int p1 = 1                        p1    ------>       1 
@@ -140,7 +140,7 @@
 >            
 >        int p2 = 1                        p2     -----------  ↑               
 >                                (p1 과 p2는 같은 1를 가짐)                                              
->        
+>```        
 >이유 : 같은 값을 가지는 주소에 새로운 변수를 생성해도 똑같이 거친다.  
 >
 >### **후자 일 경우**  
@@ -252,15 +252,15 @@
 >         };
 >```
 >우리가 흔히 **배열 공간을 선언과 초기화를 하는건 1차원**에서 하는것이다.  
->
+>```java
 >        user[3]   --------->      users[1]     users[2]      users[3]  
->
+>```
 >이런식으로 공간을 갖는다. 반면 2차원은 밑에와 같다.  
->
+>```java
 >        user[2][2] --------->     users[0][0]   users[0][1]  
 >
 >                                  users[1][0]   users[1][1]   
->
+>```
 >이런식으로 공간을 갖으며 쉽게 생각하면 1차원은 **x축**만 있는것이며, 2차원은 **x축과 y축이 곱해진 형태**이다.  
 >
 >### 2차원 Array(배열)의 활용
@@ -290,6 +290,7 @@
 ## Java 메소드(Java Method)
 >
 >### Java class 기본 구조
+>```java
 >               class
 >                 ↓              
 >               method
@@ -297,7 +298,7 @@
 >               vaiable
 >               
 >        object oriented programming                   
->
+>```
 >class 안에 **변수와 메소드를 포함**하고 있다.  
 
 #
@@ -338,7 +339,7 @@
 >        
 >                return out;
 >            }
->```
+>
 >
 >        위와 같이 반환의 타입  메소드 이름(파라미터){
 >                    내용
@@ -348,6 +349,7 @@
 >                     .
 >                return 반환값;
 >            }
+>```
 >형식으로 이루어진다.여기서 **파라미터(parameter)는 매개변수로 값**을 입력받고 사용한다.  
 >**retrun을 통해 특정값을 반환**해주며, 반환의 타입을 void를 사용할 시, return 을 사용하면안된다.  
 >**반환값이 없다는 의미로 void**를 사용한다.  
@@ -458,7 +460,6 @@
 >
 >### static 호출 예제)
 >
->
 >```java
 >pulic static void main(String[] args) {                
 >    Print.c("$");
@@ -537,6 +538,7 @@
 
 ## Java 객체지향 프로그래밍(JAVA OOP)
 >### 프로그램 구조
+>```java
 >                method    
 >                funtion
 >               subroutine
@@ -553,9 +555,9 @@
 >               |  method  |
 >               | variable | 
 >               |__________|
->
+>```
 >### class Instance개념
->
+>```java
 >        냉장고
 >        
 >       instance
@@ -569,8 +571,7 @@
 >        냉장고
 >
 >       instance
->
->
+>```
 >### Instance and this 키워드, constructor
 >```java                 
 >        public  String delimiter;    
@@ -624,11 +625,11 @@
 >**instance vs class** : 긴 맥락을 가지고 작업하냐 안하냐 차이  
 >
 >위 코드를 통해 만들어진 파일  
->
+>```java
 >        Hello JAVA <---- data.txt
 >
 >        Hello JAVA <---- data2.txt
->
+>```
 >### OOP를 사용한 예제
 >```java
 >        class Accounting{    
