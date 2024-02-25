@@ -27,23 +27,21 @@
 >+ **먼저** 들어온 것이 **먼저나가는 큐Queue형**
 >+ **키-값key-value**으로 저장되는 **맵Map형**
 >
->![2 (1)](https://github.com/Hasegos/Start_JAVA/assets/93961708/9dfd9689-252c-4fc0-98fc-ee17bc3a7ad3)
+>![2 (2)](https://github.com/Hasegos/backendStudy/assets/93961708/b9e9e78b-e554-4b1d-96a9-968eb59ebd54)
 
 #
 >### **Collection 인터페이스**
->
+>```java
 >
 >        public interface Collection<E> extends Iterable<E>
->
->
+>```
 >이처럼 되어있고 여기서 Iterable은 Iterator라는 인터페이스를 가진다.  
 >**Iterator**는 **반복할때 제어하는 용도**로 사용한다.  
 
 #
 >### **Collection 주요메소드**
 >
->
->![1 (1)](https://github.com/Hasegos/Start_JAVA/assets/93961708/4f258ee4-45a2-48f4-bb2b-c6c92e02f12e)
+>![1 (1) (1)](https://github.com/Hasegos/backendStudy/assets/93961708/3773de84-ccca-4170-835e-e8675b445f73)
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#컬렉션collection---list)
 
@@ -56,13 +54,13 @@
 
 #
 >### **Stack 클래스의 상속관계**
->
+>```java
 >        java.lang.Object
 >            java.util.AbstractCollection<E>
 >                java.util.AbstactList<E>
 >                    Java.util.Vector<E>
 >                        Java.util.Stack<E>
->
+>```
 >Stack 클래스는 List 인터페이스를 받기에 List에 소속되어있다.
 
 #
@@ -71,6 +69,7 @@
 >|<center>생성자</center> | <center>설명</center>|
 >|:-----:|:-----:|
 >|Stack()|아무 데이터도 없는 Stack 객체를 만든다.|
+>
 
 #
 >### **Stack 메소드**
@@ -82,9 +81,11 @@
 >|E|peek()|객체의 가장 위에있는 데이터를 지우고, 리턴한다.|
 >|E|push(E item)|매개 변수로 넘어온 데이터를 가장 위에 저장한다.|
 >|int|search(Object o)|매개 변수로 넘어온 데이터의 위치를 리턴한다.|
+>
 
 #
 >### **Stack 객체 불러내기 - peek()**
+>```java
 >        public void checkPeek(){
 >            Stack<Integer> intStack = new Stack<>();
 >            for(int loop = 0; loop < 5; loop++){
@@ -93,21 +94,21 @@
 >            }
 >            System.out.println("Size = " + intStack.size());
 >        }
->
+>```
 >### **결과**
->
+>```java
 >        0
 >        1
 >        2
 >        3
 >        4
 >        size = 5
->
+>```
 >각 반복문에서 **제일 위에있는 값**을 가져온다.
 
 #
 >### **Stack 객체 불러내기 - pop()**
->
+>```java
 >        public void checkPop() {
 >            Stack<Integer> intStack = new Stack<>();
 >            for(int loop = 0; loop < 5; loop++){
@@ -116,16 +117,16 @@
 >            }
 >            System.out.println("Size = " + intStack.size());
 >        }
->
+>```
 >### **결과**
->
+>```java
 >        0
 >        1
 >        2
 >        3
 >        4
 >        size = 0
->
+>```
 >가장 위에있는 값을 불러내면서 **그 값을 삭제한다.**
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#컬렉션collection---list)
@@ -136,12 +137,12 @@
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[처음 목차로 돌아가기](#컬렉션collection---list)
 
 >* 목차 
->    * [ArrayList 개념](#arraylist-개념)
->    * [ArrayList 생성자](#arraylist-생성자)
->    * [ArrayList 데이터 추가](#arraylist-데이터-추가)
->    * [ArrayList 데이터 꺼내기](#arraylist-데이터-꺼내기)
->    * [ArrayList 삭제하기](#arraylist-삭제하기)
->    * [번외)](#번외)
+>    * [1. ArrayList 개념](#arraylist-개념)
+>    * [2. ArrayList 생성자](#arraylist-생성자)
+>    * [3. ArrayList 데이터 추가](#arraylist-데이터-추가)
+>    * [4. ArrayList 데이터 꺼내기](#arraylist-데이터-꺼내기)
+>    * [5. ArrayList 삭제하기](#arraylist-삭제하기)
+>    * [6. 번외)](#번외)
     
 >## **ArrayList 개념**
 >
@@ -152,17 +153,17 @@
 
 #
 >### **ArrayList 클래스의 상속관계도**
->
+>```java
 >            java.lang.Object
 >                java.util.AbstractCollection<E>
 >                    java.util.AbstractList<E>
 >                        java.util.ArrayList<E>
-
+>```
 #
 >### **ArrayList가 구현한 인터페이스**
->
+>```java
 >        Serializable, Cloneable, Iterable<E>, Collection<E>, List<E>, RandomAccess
->
+>```
 >|<center>인터페이스</center> | <center>용도</center> |
 >|:-----:|:-----:|
 >|Serializable | 원격으로 객체를 전송하거나, 파일에 저장할 수 있음을 지정|
@@ -188,26 +189,26 @@
 
 #
 >### **여러 객체 저장**
->
+>```java
 >        public void checkArrayList1(){
 >            ArrayList list = new ArrayList();
 >            list.add(new Object());
 >            list.add("ArrayListSample");
 >            list.add(new Double(1));
 >        }
->
+>```
 >ArrayList에는 어떤 객체를 넣어도 되지만 서로 다른 종류의 객체를 넣지않고, **한가지 종류의 객체**만 저장한다.  
 
 #
 >### **한가지 종류 객체 저장**
->
+>```java
 >        ArrayList<String> list = new ArrayList<String>();
-
+>```
 #
 >### **ArrayList 객체선언시 초기값 지정**
->
+>```java
 >        ArrayList<String> list2 = new ArrayList<String>(100);
->
+>```
 >ArrayList선언할때 초기값을 **매개변수**로 줄수있다.  
 >만약 초기값을 주지않으면 크기는 **10으로 초기값**을 가진다.
 ---
@@ -237,7 +238,7 @@
 
 #
 >### **add()**
->
+>```java
 >        public void checkArrayList2(){      
 >            ArrayList<String> list = new ArrayList<>();
 >            list.add("A");
@@ -247,21 +248,22 @@
 >            list.add("E");
 >            list.add(1,"A1");    
 >        }
->
+>```
 >### **결과**
->
+>```java
 >        A
 >        A1
 >        B
 >        C
 >        D
 >        E
-    
+>```
+
 #
 >### **addAll()**  
 >
 >여기서 **list**는 **위 add()에서 사용한 값**  
->
+>```java
 >        public void checkArrayList3(){
 >            ArrayList<String> list2 = new ArrayList<>();
 >            list2.add("0 ");
@@ -270,9 +272,9 @@
 >                System.out.println("List2 " + tempData);
 >            }
 >        }
->
+>```
 >### **결과**  
->
+>```java
 >        list2 0
 >        list2 A
 >        list2 A1
@@ -280,10 +282,11 @@
 >        list2 C
 >        list2 D
 >        list2 E
+>```
 
 #
 >### **ArrayList 객체참조**  
->
+>```java
 >        public void checkArrayList4(){
 >            ArrayList<String> list = new ArrayList<>();
 >            list.add("A");
@@ -293,13 +296,12 @@
 >                System.out.println("List2 " + tempData);
 >            }
 >        }
->
+>```
 >### **결과**  
->
+>```java
 >        List2 A
 >        List2 Ooops
->    
->    
+>```    
 >여기서 list2에 list값을 할당하고 list에 값을 더했을때  
 >**list2**는 **list값을 참조**하기때문에 **추가된 내용까지 출력한다.**  
 >즉, **하나의 객체가 변경되면 다른 이름의 변수를 갖는 객체의 내용도 바뀐다.**
@@ -315,7 +317,7 @@
 
 #
 >### **size()**
->
+>```java
 >        public void checkArrayList5(){
 >            ArrayList<String> list = new ArrayList<>();
 >            list.add("A");
@@ -326,7 +328,7 @@
 >                System.out.println("list.get(" + loop + ") = " + list.get(loop));
 >            }
 >        }
->
+>```
 >여기서 데이터를 담을수 있는 공간을 통해 가져올 수 있는데 이때 **get()메소드**를 사용한다.  
 
 #
@@ -349,7 +351,7 @@
 
 #
 >### **toArray()**
->
+>```java
 >        public void checkArrayList6(){
 >            ArrayList<String> list = new ArrayList<>();
 >            list.add("A");
@@ -357,7 +359,7 @@
 >            String[] strList = list.toArray(new String[0]);
 >            System.out.println(strList[0]);        
 >        }
->
+>```
 >list에 있는 값을 **toArray(타입의 배열)메소드를 통해 해당 타입의 배열로 변환을 시켜준다.**  
 >여기서 주의점이 있다.  
 >만약 **객체의 데이터 크기가 매개변수로 넘어간 배열 객체의 크기보다 클 경우 null값을 채워진다.**  
@@ -365,7 +367,7 @@
 
 #
 >### **예시)** 
->
+>```java
 >    객체의 데이터크기가 더 클경우
 >    
 >        A
@@ -379,6 +381,7 @@
 >        
 >        null
 >        null
+>```
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#arraylist-개념과-사용법)
 
@@ -394,10 +397,10 @@
 >|boolean|removeAll(Collection<?> c)|매개 변수로 넘어온 컬렉션 객체에 있는 데이터와 동일한 모든 데이터를 삭제한다.|
 >
 >여기서 remove() 와 removeAll() 차이는 **전자**는 **첫 번째 데이터만 삭제**하고 **후자**는 **모든 데이터를 삭제한다.**
-#
 
+#
 >### **remove() / removeAll()**
->
+>```java
 >        public void checkArrayList8(){
 >            ArrayList<String> list = new ArrayList<>();
 >            list.add("A");
@@ -421,25 +424,24 @@
 >                System.out.println("list.get(" + loop +")" + list.get(loop));
 >            }        
 >        }
-#
-    
+>```
+
+#    
 >### **첫번째 remove() 경우**
->
->
+>```java
 >        Removed A
 >        list.get(0) = B
 >        list.get(1) = C
 >        list.get(2) = A
->
+>```
 >이처럼 **가장 처음**에 들어간 A값만 삭제되고 **뒤에 있는 A값은삭제가 안된것**을 볼 수 있다.
-#
 
+#
 >### **두번째 removeAll() 경우**
->
->
+>```java
 >        list.get(0) = B
 >        list.get(1) = C
->
+>```
 >"A" 라는 값을 갖는 **모든 데이터**가 삭제된것을 확인할 수 있다.
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#arraylist-개념과-사용법)
@@ -453,7 +455,7 @@
 
 #
 >### **set()**
->
+>```java
 >        public void checkArrayList8(){
 >            ArrayList<String> list = new ArrayList<>();
 >            list.add("A");
@@ -462,14 +464,13 @@
 >
 >            0 번째 위치에있는 값을 B로 변경
 >            list.set(0,"B");
->
+>```
 >### **결과**
->
+>```java
 >        B
 >        B
 >        C
->
->
+>```
 >이처럼 값을 변경을 위해서는 삭제 하고 추가하는 두번의 작업을해야한다.  
 >그러나 **set()** 를 사용하면 **한번**으로 가능하다.
 
@@ -478,9 +479,9 @@
 >
 >ArrayList 개념을 알아볼때 **Thread safe하지않다고 했다.**  
 >여러 작업이 동시에 안된다는 것으로 이를 해결방법은 **ArrayList라는 List로 객체를 생성**해주면된다.
->
+>```java
 >        List list = Collection.synchronizedList(new ArrayList(...))
->
+>```
 >위와 같은 형식으로 **객체를 생성하지않으면 원하지않는 값이 나올 수 있다.**
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#arraylist-개념과-사용법)
