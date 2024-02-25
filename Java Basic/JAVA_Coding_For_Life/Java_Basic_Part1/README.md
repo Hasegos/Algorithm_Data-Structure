@@ -64,10 +64,10 @@
 
 #
 > ### 라이브러리(library)
-라이브러리(library)이란 여러 모듈과 패키지를 묶어 놓은 집합  
+>라이브러리(library)이란 여러 모듈과 패키지를 묶어 놓은 집합  
 >Java에서 폴더 안에 폴더가 있고 그안에 파일(class)가 있는 것을 말한다.  
 
-#
+#    
 > ### 큰 흐름
 >라이브러리  -> 패키지 -> 모듈 
 >
@@ -132,9 +132,9 @@
 >추가적으로 기존의 클래스에 _기능을 추가하거나 재정의하여 새로운 클래스를 정의_ 할 수 있다.  
 >아래 코드를 이용해서 알아보겠다.  
 >
-><code>PrintWriter p1 = new PrintWriter("result1");</code>
-><code>p1.toString();</code>
-><code>p1.wirte("Hello World");</code>
+><code>PrintWriter p1 = new PrintWriter("result1");</code>  
+><code>p1.toString();</code>  
+><code>p1.wirte("Hello World");</code>  
 >
 >            class Object       ←----------|
 >                                          |                                       
@@ -223,6 +223,6 @@
 #
 >### 인스턴스(instance) 관련 팁  
 > 인스턴스(instance)사용시, 메소드에 static 기능을 삭제해야한다.  
->이유&ensp; : &ensp;instance는 객체를 만드는 것이므로 static을 사용시 객체를 만들기도 전에 메모리에 올라간다.  
+>이유 : instance는 객체를 만드는 것이므로 static을 사용시 객체를 만들기도 전에 메모리에 올라간다.  
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
