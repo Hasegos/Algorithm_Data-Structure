@@ -2,7 +2,7 @@
 
 # 컬렉션(Collection) - List
 
-* [자바의 神 VOL.2 주요 API 응용편 이동](https://github.com/Hasegos/Start_JAVA/tree/master/Java_Book_God/Java_VOL.2)
+* [자바의 神 VOL.2 주요 API 응용편 이동](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic/Java_Book_God/Java_VOL.2)
 
 * 목차
     * [컬렉션(Collection)이란](#컬렉션collection이란)
