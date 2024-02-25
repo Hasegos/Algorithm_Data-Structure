@@ -1,0 +1,50 @@
+
+
+
+        숙명                  vs                 운명
+        
+       ERROR                                  EXCEPTION
+       
+자바안에서의 환경적인 요소로인해 오류나는것       우리가 짠 코드가 우리가 의도한것과 다르게 움직일때 
+(메모리, 운영체제 등등)                  (파일이 존재할거라 생각하고 실행했을 때 오류, 사용자가 예상치 못한 것을 입력했을 때)
+
+
+
+     (컴파일러가 체크    try catch 할건 말건 할때, try catch 해야 할때)
+    Checked Exception             vs                   UnChecked Exception
+    
+Exception에서 RuntimeException을 제외한 나머지       RuntimeException을 포함한 자식들
+ex)IOException 등등
+예외처리를 용인하지않는 애들(즉,무조건적으로 해야한다.)     예외처리를 안해도 실행이 되고 이후 오류가 되면 그때 알려준다.   
+
+
+
+                                        JAVA
+                                        
+                                        
+                                        
+        DB                            Network                        File
+        
+                                     Resource
+  
+  
+  
+  
+예외란 폭탄 돌리기랑 같다.
+
+            try...catch..finally
+
+                    ↑
+
+        throws Exception
+        
+            ↑
+
+    throws Exception
+
+         ↑   
+
+throw new Exception("문제가 발생했습니다.");
+
+
+이순서대로 가고 만약 try catch 를 안하면 결국 에러가 발생하게된다.
