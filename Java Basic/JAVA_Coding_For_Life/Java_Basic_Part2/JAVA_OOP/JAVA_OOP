@@ -1,0 +1,17 @@
+
+                method    
+                funtion
+               subroutine
+               procedural 
+               
+              procedural programming
+
+        
+        method를 통해서 큰 프로그램을 만든다.
+        
+          class 
+       ____________  
+       |          |
+       |  method  |
+       | variable | 
+       |__________|
