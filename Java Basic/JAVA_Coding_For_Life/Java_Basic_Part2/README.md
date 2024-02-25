@@ -1,3 +1,4 @@
+<!---미완료--->
 # Java Basic Part 2
 
 * [생활코딩 - 쉽게 배우는 자바 이동](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic/JAVA_Coding_For_Life)
@@ -9,7 +10,8 @@
     * [4. Java 상속(Java Inheritance)](#java-상속java-inheritance)
     * [5. Java 인터페이스(Java Interface)](#java-인터페이스java-interface)
     * [6. Java 예외(Java Exception)](#java-예외java-exception)
-    
+
+<!---목차 1--->
 ## Java 제어문(Java control statement)
 >### **비교 연산자**
 >    ```java
@@ -287,6 +289,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)
 
+<!---목차 2--->
 ## Java 메소드(Java Method)
 >
 >### Java class 기본 구조
@@ -537,6 +540,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)
 
+<!---목차 3--->
 ## Java 객체지향 프로그래밍(JAVA OOP)
 >### 프로그램 구조
 >```java
@@ -730,6 +734,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)
 
+<!---목차 4--->
 ## Java 상속(Java Inheritance)
 >
 >Inheritance(상속)이란 : **부모클래스를 상속받은 자식클래스는 부모클래스의 맴버**를 그대로 쓸 수 있다.  
@@ -834,6 +839,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)
 
+<!---목차 5--->
 ## Java 인터페이스(Java Interface)
 >
 >Interface(인터페이스)란 **무조건적으로 지켜야할 규약을 구현화**를 위해 사용한다.  
@@ -888,6 +894,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)        
 
+<!---목차 6--->
 ## Java 예외(Java Exception)   
 >
 >
