@@ -1,45 +1,35 @@
-Java Basic Part2
-===
-  
+# Java Basic Part 2
 
-### 주요 내용 정리
+* [생활코딩 - 쉽게 배우는 자바 이동](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic/JAVA_Coding_For_Life)
 
-<br>
+* 목차
+    * [Java 제어문(Java control statement)](#java-제어문java-control-statement)
+    * [Java 메소드(Java Method)](#java-메소드java-method)
+    * [Java 객체지향 프로그래밍(JAVA OOP)](#java-객체지향-프로그래밍java-oop)
+    * [Java 상속(Java Inheritance)](#java-상속java-inheritance)
+    * [Java 인터페이스(Java Interface)](#java-인터페이스java-interface)
+    * [Java 예외(Java Exception)](#java-예외java-exception)
+    
 
-
-&ensp; 1. **[Java 제어문(Java control statement)](#java-제어문java-control-statement)**
-
-&ensp; 2. **[Java 메소드(Java Method)](#java-메소드java-method)**
-
-&ensp; 3. **[Java 객체지향 프로그래밍(JAVA OOP)](#java-객체지향-프로그래밍java-oop)**
-
-&ensp; 4. **[Java 상속(Java Inheritance)](#java-상속java-inheritance)**
-
-&ensp; 5. **[Java 인터페이스(Java Interface)](#java-인터페이스java-interface)**
-
-&ensp; 6. **[Java 예외(Java Exception)](#java-예외java-exception)**
-
-<br>
-
----
-
-### Java 제어문(Java control statement)
->#### **비교 연산자**
->
+## Java 제어문(Java control statement)
+>### **비교 연산자**
+>    
 >        System.out.println(1 > 1);  
 >        System.out.println(1 == 1); 
 >        System.out.println(1 < 1);
 >        System.out.println(1 >= 1);
 >
->위와 같이 **크다, 크거나 같다, 작다, 작거나 같다, 같다** 이 5가지 비교연산자가 있다.
->ex)  >,&ensp;&ensp;   >=,&ensp;&ensp;    <,&ensp;&ensp;     <=   &ensp;&ensp; ==
->이런식으로 5가지가 있으며, 그 조건이 **맞다면 true 틀리다면 false** 이다. 
->#### **논리 연산자**
->언어의 기본적인 논리 연산자가 존재한다.
->총 3가지로 (OR , AND , NOT) 존재한다. 
->아래에 3가지 경우를 살펴보자.
+>위와 같이 **크다, 크거나 같다, 작다, 작거나 같다, 같다** 이 5가지 비교연산자가 있다.  
+>ex)  >,&ensp;&ensp;   >=,&ensp;&ensp;    <,&ensp;&ensp;     <=   &ensp;&ensp; ==  
+>이런식으로 5가지가 있으며, 그 조건이 **맞다면 true 틀리다면 false** 이다.   
+
+#
+>### **논리 연산자**
+>언어의 기본적인 논리 연산자가 존재한다.  
+>총 3가지로 (OR , AND , NOT) 존재한다.   
+>아래에 3가지 경우를 살펴보자.  
 >
->      일반적으로 두개를 비교할 때, 4가지 경우가 존재한다.
+>      일반적으로 두개를 비교할 때, 4가지 경우가 존재한다.  
 >                
 >                A 가 참, B 가 참
 >
@@ -87,10 +77,11 @@ Java Basic Part2
 >             결과 false
 >                              
 >        위와 같은 결과에서 참이면 거짓으로, 거짓이면 참으로라는 결과를 볼 수 있다..
->
->#### **if 제어문** : 두 대상 비교
->기본적으로 if 제어문을 사용하는 이유는 두 대상을 비교를 위해서 사용을 한다
-> 예시 1.
+
+#
+>### **if 제어문** : 두 대상 비교
+>기본적으로 if 제어문을 사용하는 이유는 두 대상을 비교를 위해서 사용을 한다  
+> 예시 1.  
 >
 >        if(false){
 >           System.out.println(1);    
@@ -102,19 +93,19 @@ Java Basic Part2
 >           System.out.println(3);        
 >       }
 >
->#### if 제어문 조건 
-> 위에 예제 처럼 if(조건)형태로 사용하는데, 조건에는 무조건 **boolean** 타입이여야한다.
-> 첫 줄 코드를 보면 **false(거짓)** 으로 실행이안된다.
-> boolean 타입에는 **false or true** 이 두가지 밖에 없으므로 _false일땐 실행이 안되고, true 일땐 실행이 된다._
->#### if 제어문 구조
->if, else if , else 이순으로 진행이 되며,
+>### if 제어문 조건 
+> 위에 예제 처럼 if(조건)형태로 사용하는데, 조건에는 무조건 **boolean** 타입이여야한다.  
+> 첫 줄 코드를 보면 **false(거짓)** 으로 실행이안된다.  
+> boolean 타입에는 **false or true** 이 두가지 밖에 없으므로 _false일땐 실행이 안되고, true 일땐 실행이 된다._  
+>### if 제어문 구조
+>if, else if , else 이순으로 진행이 되며,  
 > 1. if() - 첫번째
 > 2. else if() - 두번 째 ~ 마지막 전
 > 3. else() - 마지막
 >
->만약 딱 **두가지 경우밖에 없으면 else if 문은 생략**된다.
+>만약 딱 **두가지 경우밖에 없으면 else if 문은 생략**된다.  
 >
->#### 두문자열 비교
+>### 두문자열 비교
 >      
 >        String id = "egoing";
 >        String inpuId = name;
@@ -136,10 +127,10 @@ Java Basic Part2
 >        }
 >
 >
->두 개를 비교할 때는 **== / equals("내용")**  전자 아니면 후자를 쓰는데, 차이가 있다.
->전자 일 경우
->단순히 **원초적인 타입(Primitive Type)** 일때 사용한다.
->ex) int, String, char, float, double, boolean, short 등..
+>두 개를 비교할 때는 **== / equals("내용")**  전자 아니면 후자를 쓰는데, 차이가 있다.  
+>전자 일 경우  
+>단순히 **원초적인 타입(Primitive Type)** 일때 사용한다.  
+>ex) int, String, char, float, double, boolean, short 등..  
 > 
 >                         code            name                value
 >    
@@ -152,10 +143,10 @@ Java Basic Part2
 >        int p2 = 1                        p2     -----------  ↑               
 >                                (p1 과 p2는 같은 1를 가짐)                                              
 >        
->이유 : 같은 값을 가지는 주소에 새로운 변수를 생성해도 똑같이 거친다.
+>이유 : 같은 값을 가지는 주소에 새로운 변수를 생성해도 똑같이 거친다.  
 >
->후자 일 경우
->원초적인 타입을 제외한 타입일때 사용한다.
+>후자 일 경우  
+>원초적인 타입을 제외한 타입일때 사용한다.  
 >
 >        String o1 = new String("Java") ------>   "Java"
 >
@@ -163,17 +154,17 @@ Java Basic Part2
 >
 >        String o2 = new String("Java") ------>   "Java"
 >
->위와 같이 **서로다른곳의 주소를 가지는 변수끼리 비교** 할때 사용한다.
+>위와 같이 **서로다른곳의 주소를 가지는 변수끼리 비교** 할때 사용한다.  
 >
 >        String o3 = "java2"    --------------------->       "java2"
 >
 >        o3 == o4 (true)
 >
 >        String o4 = "java2"    -----------------------------   ↑         
->equals() : **주소 여부 상관없이 내용 자체를 비교**하기때문에 문자열 비교시에 사용한다.
+>equals() : **주소 여부 상관없이 내용 자체를 비교**하기때문에 문자열 비교시에 사용한다.  
 >
 >
->#### 다양한 비교 경우
+>### 다양한 비교 경우
 >
 >        boolean isRightPass = inputPass.equals(pass) || inputPass.equals(pass2);
 >      
@@ -186,15 +177,14 @@ Java Basic Part2
 >        }       
 >
 >
->위와 같이 **boolean타입에 비교문의 결과를 저장**해놓고 그 **변수를 이용해서 다른 것과 비교**하는 무궁무진한 경우가 있다.
+>위와 같이 **boolean타입에 비교문의 결과를 저장**해놓고 그 **변수를 이용해서 다른 것과 비교**하는 무궁무진한 경우가 있다.  
+
+#
+>### 반복문
 >
->
->
->#### 반복문
->
->어떠한 행위를 반복적으로 할때 주로 사용한다.
->반복문에는 for문과 while문이 있으며 밑에 예제를 보자.
->#### while() 구조
+>어떠한 행위를 반복적으로 할때 주로 사용한다.  
+>반복문에는 for문과 while문이 있으며 밑에 예제를 보자.  
+>### while() 구조
 >        int i = 0;
 >        
 >        // ...
@@ -204,53 +194,53 @@ Java Basic Part2
 >            // ...
 >            i++;
 >        }
->위와 같이 while()에는 **while(조건){반복 내용};** 의 구조를 갖는다.
->while()을 사용할 경우 카운트를 할 변수를 따로 외부에 선언해야함으로 코드가 길어지면 **가독성이 떨어진다.**
+>위와 같이 while()에는 **while(조건){반복 내용};** 의 구조를 갖는다.  
+>while()을 사용할 경우 카운트를 할 변수를 따로 외부에 선언해야함으로 코드가 길어지면 **가독성이 떨어진다.**  
 >
->#### for() 구조
+>### for() 구조
 >
 >        for(int j = 0; j < 3; j++){
 >            System.out.println(2);
 >            System.out.println(3);
 >        }
->위와 같이 for()에는 **for(변수 선언; 범위; 계산방식){반복 내용}; 의 구조** 를 갖는다.
->for()를 사용할 경우 **변수 선언을 내부에서 함으로 헷갈릴 일이 없고 범위까지 확실히 갖기**에 보기편하다.
->
->
->#### Array(배열) 구조
+>위와 같이 for()에는 **for(변수 선언; 범위; 계산방식){반복 내용}; 의 구조** 를 갖는다.  
+>for()를 사용할 경우 **변수 선언을 내부에서 함으로 헷갈릴 일이 없고 범위까지 확실히 갖기**에 보기편하다.  
+
+#
+>### Array(배열) 구조
 >
 >        String[] users = new String[3];
 >        users[0] = "egoing";
 >        users[1] = "jinhuck";
 >        users[2] = "youbin";
 >
->#### Array(배열) 선언과 참조 변수만 선언
+>### Array(배열) 선언과 참조 변수만 선언
 >
 >        String[] users;
 >        String users[];
->위와 같은 구조이며 참조할 변수만 선언하기 때문에 안에 **쓰레기값(garbage)가 들어가 있으므로 초기화**를 해야한다.
+>위와 같은 구조이며 참조할 변수만 선언하기 때문에 안에 **쓰레기값(garbage)가 들어가 있으므로 초기화**를 해야한다.  
 >
->#### Array(배열) 선언과 동시에 할당
->**배열타입[배열공간] 변수 = new 배열타입[배열공간 수];**
->위와 같은 구조이며 **String 타입에 배열 공간 3칸을 users 변수에 선언과 동시에 할당했다.**
->그후에 users의 3칸중 첫번째(0)에 해당하는 공간에 _egoing 이라는 문자열을 할당했다._
->다른 것들도 마찬가지의 방법으로 할당했다.
+>### Array(배열) 선언과 동시에 할당
+>**배열타입[배열공간] 변수 = new 배열타입[배열공간 수];**  
+>위와 같은 구조이며 **String 타입에 배열 공간 3칸을 users 변수에 선언과 동시에 할당했다.**  
+>그후에 users의 3칸중 첫번째(0)에 해당하는 공간에 _egoing 이라는 문자열을 할당했다._  
+>다른 것들도 마찬가지의 방법으로 할당했다.  
 >
->#### Array(배열)의 길이
+>### Array(배열)의 길이
 >
 >        System.out.println(users.length);
->위와 같은 **.length 를 통해 배열의 공간이 얼마나 할당되었는지 확인**할 수 있다.
+>위와 같은 **.length 를 통해 배열의 공간이 얼마나 할당되었는지 확인**할 수 있다.   
 >
 >
->#### Array(배열)의 for()
+>### Array(배열)의 for()
 >
 >         for(int i = 0; i < users.length; i++){
 >            System.out.println("<li>"+users[i]+"</li>");
 >        }
->위 코드와 같이 배열의 전체 길이를 활용해서 배열 공간에 할당된 것들을 확인할 수 있다.
+>위 코드와 같이 배열의 전체 길이를 활용해서 배열 공간에 할당된 것들을 확인할 수 있다.  
 >
 >
->#### 2차원 Array(배열)의 구조
+>### 2차원 Array(배열)의 구조
 >
 >         String[][] users = {
 >            {"egoing", "1111"},
@@ -259,20 +249,20 @@ Java Basic Part2
 >         };
 >
 >
->우리가 흔히 **배열 공간을 선언과 초기화를 하는건 1차원**에서 하는것이다.
+>우리가 흔히 **배열 공간을 선언과 초기화를 하는건 1차원**에서 하는것이다.  
 >
 >        user[3]   --------->      users[1]     users[2]      users[3]  
 >
->이런식으로 공간을 갖는다. 반면 2차원은 밑에와 같다.
+>이런식으로 공간을 갖는다. 반면 2차원은 밑에와 같다.  
 >
 >        user[2][2] --------->     users[0][0]   users[0][1]  
 >
 >                                  users[1][0]   users[1][1]   
 >
->이런식으로 공간을 갖으며 쉽게 생각하면 1차원은 **x축**만 있는것이며, 2차원은 **x축과 y축이 곱해진 형태**이다.
+>이런식으로 공간을 갖으며 쉽게 생각하면 1차원은 **x축**만 있는것이며, 2차원은 **x축과 y축이 곱해진 형태**이다.  
 >
 >
->#### 2차원 Array(배열)의 활용
+>### 2차원 Array(배열)의 활용
 >
 >
 >        for(int i = 0; i < users.length; i++){
@@ -285,23 +275,22 @@ Java Basic Part2
 >            }           
 >        }
 >
->위 코드에서 밑에 변수를 활용하는데       
+>위 코드에서 밑에 변수를 활용하는데         
 >            
 >            {"egoing", "1111"},
 >            {"jinhuck", "2222"},
 >            {"youbin", "3333"} 
 >
 >
->users[i]를 반복해서 배열을 만들면 **전체가 다들어가는데**,
->그중 첫번째(0) 에 해당되는 **egoing,jinhuck,youbin를 current[0]에 넣는다.**
->이런 2차원 배열을 통해서 비교문을 만들수 있으며, 다양하게 활용 된다.
-<br>
-
+>users[i]를 반복해서 배열을 만들면 **전체가 다들어가는데**,    
+>그중 첫번째(0) 에 해당되는 **egoing,jinhuck,youbin를 current[0]에 넣는다.**    
+>이런 2차원 배열을 통해서 비교문을 만들수 있으며, 다양하게 활용 된다.    
 ---
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)
 
-### Java 메소드(Java Method)
+## Java 메소드(Java Method)
 >
->#### Java class 기본 구조
+>### Java class 기본 구조
 >               class
 >                 ↓              
 >               method
@@ -310,23 +299,22 @@ Java Basic Part2
 >               
 >        object oriented programming                   
 >
->class 안에 **변수와 메소드를 포함**하고 있다.
+>class 안에 **변수와 메소드를 포함**하고 있다.  
+
+#
+>### Method(메소드)의 종류
 >
->
->
->#### Method(메소드)의 종류
->
->메소드에는 두가지 종류가 있다. Java에서 제공해주는 메소드와 개발자가 직접만드는 메소드가 있다.
->전자 일 경우
+>메소드에는 두가지 종류가 있다. Java에서 제공해주는 메소드와 개발자가 직접만드는 메소드가 있다.  
+>**전자 일 경우**  
 >
 >         System.out.println("Hello Method");
 >         System.out.println(Math.floor(1.1));
->Math라는 수학관련 함수를 java에서 제공해주기에 각종 기능을 사용할 수 있다.
->Java에서 제공해주는 메소드를 알고싶으면 밑의 링크로 들어가면된다.
-> [Java API 문서 사이트][gdh] 
+>Math라는 수학관련 함수를 java에서 제공해주기에 각종 기능을 사용할 수 있다.  
+>Java에서 제공해주는 메소드를 알고싶으면 밑의 링크로 들어가면된다.  
+> [Java API 문서 사이트][gdh]   
 >
->[gdh]: https://docs.oracle.com/javase/8/docs/api/
->후자 일 경우
+>[gdh]: https://docs.oracle.com/javase/8/docs/api/  
+>**후자 일 경우**  
 >
 >         
 >            public static void main(String[] args) throws IOException {                           
@@ -341,8 +329,9 @@ Java Basic Part2
 >        
 >                return out;
 >            }
->
->#### Method(메소드)의 구조
+
+#
+>### Method(메소드)의 구조
 >
 >        public static String twoTimes(String text,String delimiter){
 >                String out = "";
@@ -360,12 +349,12 @@ Java Basic Part2
 >                     .
 >                return 반환값;
 >            }
->형식으로 이루어진다.여기서 **파라미터(parameter)는 매개변수로 값**을 입력받고 사용한다.
->**retrun을 통해 특정값을 반환**해주며, 반환의 타입을 void를 사용할 시, return 을 사용하면안된다.
->**반환값이 없다는 의미로 void**를 사용한다.
+>형식으로 이루어진다.여기서 **파라미터(parameter)는 매개변수로 값**을 입력받고 사용한다.  
+>**retrun을 통해 특정값을 반환**해주며, 반환의 타입을 void를 사용할 시, return 을 사용하면안된다.  
+>**반환값이 없다는 의미로 void**를 사용한다.  
 >
 >
-> **void 예시 코드**
+>### **void 예시 코드**
 >     
 >        public static void printTwoTimesA(){
 >           System.out.println("-"); 
@@ -374,7 +363,7 @@ Java Basic Part2
 >        }
 >
 >
-> **반환 예시 코드**
+>### **반환 예시 코드**
 >
 >        1번쨰
 >         public static String a(){
@@ -388,10 +377,11 @@ Java Basic Part2
 >         // ...
 >        }
 >
->1번째의 경우일 때는 내용이 다 실행되고 반환 값 문자 a를 반환한다.
->2번째의 경우일 때는 반환값 숫자 1를 반환하고 그뒤에 내용은 실행되지않는다.
->
->#### Method(메소드)사용한 형식
+>1번째의 경우일 때는 내용이 다 실행되고 반환 값 문자 a를 반환한다.  
+>2번째의 경우일 때는 반환값 숫자 1를 반환하고 그뒤에 내용은 실행되지않는다.  
+
+#
+>### Method(메소드)사용한 형식
 >       
 >                             공급가액
 >        public static  double valueOfSupply = 10000.0;;
@@ -417,7 +407,7 @@ Java Basic Part2
 >                return valueOfSupply + getVAT();
 >            }
 >        }
->#### Static Method(메소드)
+>### Static Method(메소드)
 >
 >        public static void main(String[] args) {        
 >        
@@ -461,34 +451,32 @@ Java Basic Part2
 >            }
 >        }
 >
->위에서 **static 이라는것은 class 기반 소속이다** 라는걸 의미한다.
->**java에서는 누구의 소속이냐에따라 코드가 많이 변함으로 누구 소속인지 확실하게 구분**해야한다.
->그래서 static 과 instance를 사용한다.
->**instance는 static과 반대로 no-class class기반 소속이 아니다.**
+>위에서 **static 이라는것은 class 기반 소속이다** 라는걸 의미한다.  
+>**java에서는 누구의 소속이냐에따라 코드가 많이 변함으로 누구 소속인지 확실하게 구분**해야한다.  
+>그래서 static 과 instance를 사용한다.  
+>**instance는 static과 반대로 no-class class기반 소속이 아니다.**  
 >
->#### static 호출 예제)
+>### static 호출 예제)
 >
->        public static void main(String[] args) {
->                
->                Print.c("$");
->            }    
->        }
 >
->        class Print{
->        
->            public String delimiter;
->    
->            
->            public static void c(String delimiter){
->                System.out.println(delimiter);
->                System.out.println("a");
->                System.out.println("a");
->            }
->        }
->위 코드에서 Print라는 클래스의 c 라는 static method를 main에서 호출하기위해서는
->**해당클래스.해당메소드 형식**(Print.c("파라미터")) 으로 호출한다.
+```java
+pulic static void main(String[] args) {                
+    Print.c("$");
+    }    
+}
+class Print{        
+    public String delimiter;
+    public static void c(String delimiter){
+        System.out.println(delimiter);
+        System.out.println("a");
+        System.out.println("a");
+    }
+}
+```
+>위 코드에서 Print라는 클래스의 c 라는 static method를 main에서 호출하기위해서는  
+>**해당클래스.해당메소드 형식**(Print.c("파라미터")) 으로 호출한다.  
 >
->#### instance 호출 예제)
+>### instance 호출 예제)
 >
 >        public static void main(String[] args) {
 >                
@@ -520,33 +508,32 @@ Java Basic Part2
 >            }
 >            
 >        }
->위 코드에서 클래스 기반이아닌 Print 클래스에 있는 a 와 b 메소드를 호출시키기 위해서는
->해당 클래스를 instance화를 시킨후 호출해야한다.
->#### instance 구조
+>위 코드에서 클래스 기반이아닌 Print 클래스에 있는 a 와 b 메소드를 호출시키기 위해서는  
+>해당 클래스를 instance화를 시킨후 호출해야한다.  
+>### instance 구조
 >
 >         Print t1 = new Print();
 >         t1.delimiter = "-";
 >         t1.a();
 >         t1.b();                
 >
->**해당 클래스 변수 = new 해당 클래스();** 인 구조로 사용되며,
->**원초적인 타입(Primitive Type)을 변수 선언 동시에 초기화** 하는 것과 구조가 같다. 
->메소드나 변수를 호출하는 과정은 **static기반 메소드나 변수를 호출하는 구조**와 같으며,
->**단순히 클래스 자리에 instance화 변수**가 들어갈 뿐이다.
->★★★★★추가로 클래스를 **instance화 시킨후 static 기반 메소드나 변수를 손대면,
->instance는 참조하는 형식이라서 전체가 영향**이 가서 주의해야한다.
->
->#### 간단한 Access Modifier(접근 제어자)
+>**해당 클래스 변수 = new 해당 클래스();** 인 구조로 사용되며,  
+>**원초적인 타입(Primitive Type)을 변수 선언 동시에 초기화** 하는 것과 구조가 같다.   
+>메소드나 변수를 호출하는 과정은 **static기반 메소드나 변수를 호출하는 구조**와 같으며,  
+>**단순히 클래스 자리에 instance화 변수**가 들어갈 뿐이다.  
+>★★★★★추가로 클래스를 **instance화 시킨후 static 기반 메소드나 변수를 손대면,  
+>instance는 참조하는 형식이라서 전체가 영향**이 가서 주의해야한다.  
+
+#
+>### 간단한 Access Modifier(접근 제어자)
 >         public, protected, default, private
 >        
 >        private : 같은 클래스 내부에서만 사용 가능            
 >이 4개의 존재가 한다는 것만 알고가자.
-<br>
-
 ---
+![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)
 
-
-### Java 객체지향 프로그래밍(JAVA OOP)
+## Java 객체지향 프로그래밍(JAVA OOP)
 >#### 프로그램 구조
 >                method    
 >                funtion
