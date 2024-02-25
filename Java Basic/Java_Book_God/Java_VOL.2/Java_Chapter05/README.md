@@ -1,7 +1,7 @@
 <!---다함--->
 # 컬렉션(Collection) - Set & Queue
   
-* [자바의 神 VOL.2 주요 API 응용편 이동](https://github.com/Hasegos/Start_JAVA/tree/master/Java_Book_God/Java_VOL.2)
+* [자바의 神 VOL.2 주요 API 응용편 이동](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic/Java_Book_God/Java_VOL.2)
 
 * 목차
     * [Set 개념과 사용법](#set-개념과-사용법)
