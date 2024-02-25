@@ -1,0 +1,19 @@
+
+            예외의 이해 관계
+            
+            
+            Throwable(클래스)
+      ↓                          ↓   
+            
+  Error(에러)                Exception(예외)             
+  
+                            ↓                                  ↓ 
+  
+                      RuntimeExcption           /         IOException     
+                                                          SQLException 
+                             ↓                            MalformedURLException        
+                                                          .....
+                  NullPointerException                        
+                  NumberFormatException                        
+                  ClassCastException
+                  IndexOutOfBoundsException
