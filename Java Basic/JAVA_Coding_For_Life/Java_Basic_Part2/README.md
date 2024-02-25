@@ -530,8 +530,9 @@
 >### 간단한 Access Modifier(접근 제어자)
 >```java
 >         public, protected, default, private
->```        
+>
 >        private : 같은 클래스 내부에서만 사용 가능              
+>```        
 >이 4개의 존재가 한다는 것만 알고가자.  
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-2)
