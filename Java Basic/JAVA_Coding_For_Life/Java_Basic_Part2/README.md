@@ -459,7 +459,7 @@
 >### static 호출 예제)
 >
 >
-```java
+>```java
 pulic static void main(String[] args) {                
     Print.c("$");
     }    
@@ -472,7 +472,7 @@ class Print{
         System.out.println("a");
     }
 }
-```
+>```
 >위 코드에서 Print라는 클래스의 c 라는 static method를 main에서 호출하기위해서는  
 >**해당클래스.해당메소드 형식**(Print.c("파라미터")) 으로 호출한다.  
 >
