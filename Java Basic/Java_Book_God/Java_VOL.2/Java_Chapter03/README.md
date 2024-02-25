@@ -1,7 +1,7 @@
 <!---다함--->
 # 제네릭(Generic)
 
-* [자바의 神 VOL.2 주요 API 응용편 이동](https://github.com/Hasegos/Start_JAVA/tree/master/Java_Book_God/Java_VOL.2)
+* [자바의 神 VOL.2 주요 API 응용편 이동](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic/Java_Book_God/Java_VOL.2)
 
 * 목차
     * [제네릭(Generic)이란](#제네릭generic이란)    
