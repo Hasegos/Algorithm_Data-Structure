@@ -1,6 +1,6 @@
 # CS 지식 공부 및 저장소
 * 목차
-    * [알고리즘 정리]()
+    * [알고리즘 정리](https://github.com/Hasegos/backendStudy/tree/master/Algorithm)
     * [CS 지식 (DB, 네트워크, OS) 저장소](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science)
     * [Java 개인 공부 저장소](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic)
 
