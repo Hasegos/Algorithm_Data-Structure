@@ -4,9 +4,9 @@
 * [네트워크 정리 이동](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science/NetWork)
 
 * 목차
-    * [DNS란](#dns란)
-    * [DNS 동작 방식](#dns-동작-방식)
-    * [DNS 서버의 계층 구조](#dns-서버의-계층-구조)    
+    * [1. DNS란](#dns란)
+    * [2. DNS 동작 방식](#dns-동작-방식)
+    * [3. DNS 서버의 계층 구조](#dns-서버의-계층-구조)    
 
 
 <!---목차 1--->
