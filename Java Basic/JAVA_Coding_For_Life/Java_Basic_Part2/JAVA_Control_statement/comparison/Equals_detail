@@ -1,0 +1,31 @@
+
+                code            name                value
+    
+int p1 = 1                        p1    ------>       1 
+
+            p1 == p2 : p1 과 p2가 같은 곳을 가르키냐 (true)
+            
+int p2 = 1                        p2     -----------  ↑               
+                                (p1 과 p2는 같은 1를 가짐)
+
+
+
+
+                                                      "java"
+String o1 = new String("java")   ------------------     ↑     
+
+            o1 == o2 (서로 다른곳을 가르킨다.)  false
+
+String o2 = new String("java")   ------------------> "java"
+                        
+                        o1.eqauls(02) 
+                           true
+                           
+equals : 내용이 같냐는 취지로 만들어짐.
+
+
+String o3 = "java2"    --------------------->       "java2"
+
+            o3 == o4 (true)
+
+String o4 = "java2"    -----------------------------   ↑                        
