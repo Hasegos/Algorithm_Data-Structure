@@ -1,4 +1,7 @@
 # CS 지식 (DB, 네트워크, OS) 저장소
+
+* [CS 지식 & 개발 언어 공부 및 저장소 이동](https://github.com/Hasegos/backendStudy)
+
 * 목차
     * [네트워크](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science/NetWork)
     * [OS(운영체제)](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science/Operating%20System)

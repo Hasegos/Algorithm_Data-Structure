@@ -1,4 +1,7 @@
 # Java 개인 공부 저장소
+
+* [CS 지식 & 개발 언어 공부 및 저장소 이동](https://github.com/Hasegos/backendStudy)
+
 * 목차
     * [생활 코딩 - 쉽게 배우는 자바](https://github.com/Hasegos/Start_JAVA/tree/master/JAVA_Coding_For_Life)
     * [자바의 신](https://github.com/Hasegos/Start_JAVA/tree/master/Java_Book_God)
