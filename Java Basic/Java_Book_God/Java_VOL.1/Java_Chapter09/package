@@ -1,0 +1,107 @@
+구름ide에서는 다른 패키지를 호출하는 작업은 제한적으로 됨으로 여기다가 정리하겠다.
+
+package c.javapackage;
+
+public class Package(){
+    public static void main(String[] args){
+        System.out.println("Package class.");
+    }
+}
+
+
+
+이 경우는 java 로 시작해서안된다.
+
+package java;
+
+public class JavaPackage{
+
+}
+
+
+import : 다른 패키지에있는 클래스를 호출하는 예약어
+
+package c.javapackage.sub;
+
+public calss Sub{
+    public Sub(){
+    
+    }
+    public void subClassMethod(){
+    
+    }
+
+}
+
+
+package c.javapackage;
+
+import c.javapackage.sub.Sub;
+
+public class Package(){
+    public static void main(String[] args){
+        //System.out.println("Package class.");
+        Sub sub = new Sub();
+        sub.subClassMethod();
+    }
+}
+
+
+**** static을 import static 사용을안하고 불러낼시 ****
+
+package c.javapackage.sub;
+
+public class SubStatic{
+    public final static String CLASS_NAME = "SubStatic";
+    public static void subStaticMethod() {
+        System.out.println("subStaticMethod() is called.");
+    }
+}
+
+
+
+package c.javapackage;
+
+import c.javapackage.sub.SubStatic;
+
+
+public class PackageStatic {
+    public static void main(String[] args){
+        SubStatic.subStaticMethod();
+        System.out.println(SubStatic.CLASS_NAME);
+    }
+}
+
+
+**** static을 import static 사용하고 불러낼시 ****
+
+
+package c.javapackage;
+
+import static c.javapackage.sub.Substatic.subStaticMethod;
+import static c.javapackage.sub.Substatic.CLASS_NAME;
+
+public class PackageStaticImport{
+    public static void main(String[] args){
+        subStaticMethod();
+        System.out.println(CLASS_NAME);
+    }
+}
+
+----------------------------------------------------------------
+클래스 접근 제어자
+
+한 패키지안에 여러개 클래스 생성이 가능하며 이때 접근제어자는 package private
+
+만약, class 앞 접근 제어자가 public 이면 그 클래스만 사용이 가능하다. 
+public 이 존재할경우 클래스 이름과 파일이름이 동일해야된다.
+package c.javapackage;
+
+class PublicClass {
+    public static void main(String[] args){
+    
+    }
+}
+public class PublicSecondClass{
+
+}
