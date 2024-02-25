@@ -3,12 +3,12 @@
 * [생활코딩 - 쉽게 배우는 자바 이동](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic/JAVA_Coding_For_Life)
 
 * 목차
-    * [Java 제어문(Java control statement)](#java-제어문java-control-statement)
-    * [Java 메소드(Java Method)](#java-메소드java-method)
-    * [Java 객체지향 프로그래밍(JAVA OOP)](#java-객체지향-프로그래밍java-oop)
-    * [Java 상속(Java Inheritance)](#java-상속java-inheritance)
-    * [Java 인터페이스(Java Interface)](#java-인터페이스java-interface)
-    * [Java 예외(Java Exception)](#java-예외java-exception)
+    * [1. Java 제어문(Java control statement)](#java-제어문java-control-statement)
+    * [2. Java 메소드(Java Method)](#java-메소드java-method)
+    * [3. Java 객체지향 프로그래밍(JAVA OOP)](#java-객체지향-프로그래밍java-oop)
+    * [4. Java 상속(Java Inheritance)](#java-상속java-inheritance)
+    * [5. Java 인터페이스(Java Interface)](#java-인터페이스java-interface)
+    * [6. Java 예외(Java Exception)](#java-예외java-exception)
     
 ## Java 제어문(Java control statement)
 >### **비교 연산자**
@@ -82,7 +82,7 @@
 >기본적으로 if 제어문을 사용하는 이유는 두 대상을 비교를 위해서 사용을 한다  
 > 예시 1.  
 >    ```java
->        if(false){
+>       if(false){
 >           System.out.println(1);    
 >       }
 >       else if(true){
@@ -126,7 +126,7 @@
 >        }
 >    ```
 >두 개를 비교할 때는 **== / equals("내용")**  전자 아니면 후자를 쓰는데, 차이가 있다.  
->전자 일 경우  
+>### **전자 일 경우**  
 >단순히 **원초적인 타입(Primitive Type)** 일때 사용한다.  
 >ex) int, String, char, float, double, boolean, short 등..  
 > 
@@ -143,7 +143,7 @@
 >        
 >이유 : 같은 값을 가지는 주소에 새로운 변수를 생성해도 똑같이 거친다.  
 >
->후자 일 경우  
+>### **후자 일 경우**  
 >원초적인 타입을 제외한 타입일때 사용한다.  
 >```java
 >        String o1 = new String("Java") ------>   "Java"
@@ -164,8 +164,7 @@
 >
 >### 다양한 비교 경우
 >```java
->        boolean isRightPass = inputPass.equals(pass) || inputPass.equals(pass2);
->      
+>        boolean isRightPass = inputPass.equals(pass) || inputPass.equals(pass2);      
 >        
 >        if(inpuId.equals(id) && isRightPass){            
 >            System.out.println("Master!");    
