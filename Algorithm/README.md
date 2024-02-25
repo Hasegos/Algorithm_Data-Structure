@@ -3,7 +3,7 @@
 * [CS 지식 & 개발 언어 공부 및 저장소 이동](https://github.com/Hasegos/backendStudy)
 
 * 목차
-    * [순환(Recursion)](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/Algorithm_Theory/Recursion/README.md)
+    * [1. 순환(Recursion)](https://github.com/Hasegos/Study_CS/blob/master/Algorithm/Algorithm_Theory/Recursion/README.md)
 
 
 알고리즘 이론 정리 공간입니다.  
