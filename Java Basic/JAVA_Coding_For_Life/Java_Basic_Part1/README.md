@@ -131,10 +131,10 @@
 >상속(instance)이란 하나의 클래스(class)를 복제해서 **서로다른 데이터의 값과 서로 같은 메소드를 가진 복제본 제작** 으로 생각하면된다.  
 >추가적으로 기존의 클래스에 _기능을 추가하거나 재정의하여 새로운 클래스를 정의_ 할 수 있다.  
 >아래 코드를 이용해서 알아보겠다.  
->
-><code>PrintWriter p1 = new PrintWriter("result1");</code>  
-><code>p1.toString();</code>  
-><code>p1.wirte("Hello World");</code>  
+>```java
+>PrintWriter p1 = new PrintWriter("result1");
+>p1.toString();
+>p1.wirte("Hello World");
 >
 >            class Object       ←----------|
 >                                          |                                       
@@ -155,6 +155,7 @@
 >                    ↓                     |  
 >                                          |     
 >               method write    -----------|
+>```
 >위와 같은 코드를 사용시,  
 >_PrintWriter 클래스(class)는 Writer 클래스(class)를 상속받고 Writer는 object 클래스(class)에 상속받은 형태_ 로 만들어지고  
 >PrintWriter p1 = new PrintWriter("result1");  
@@ -214,11 +215,12 @@
 >### 객체 관련 팁
 >객체를 배열로 만들시, 배열 만든후 각 배열 공간에 해당 객체를 생성해야함.  
 >ex)   
->
+>```java
 >       input[] Input = new input[total];
 >       for(int i= 0; i < total; i++){
 >            Input[i] = new input();
 >       }
+>```
 
 #
 >### 인스턴스(instance) 관련 팁  
