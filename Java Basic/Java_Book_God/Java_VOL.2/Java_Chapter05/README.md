@@ -32,16 +32,17 @@
 >
 >여기서 red - black은 검은색과 뿕은 색으로 구분하여 데이터를 빠르고 쉽게 찾을 수 있는 이진(binary) 트리이다.  
 >
->![1 (1)](https://github.com/Hasegos/Start_JAVA/assets/93961708/aba79b07-4eab-4678-a4e2-01aa7ba0ab1b)
+>![1 (2)](https://github.com/Hasegos/backendStudy/assets/93961708/51b0f81e-5b72-4b8b-9477-4637e983ad0f)
+
 
 #
 >### HashSet 상속관계
->
+>```java
 >        java.lang.Object
 >            java.util.AbstractCollection<E>
 >                java.util.AbstractSet<E>
 >                    java.util.HashSet<E>
->
+>```
 >Object 클래스에 있는 equals(), hashCode(), removeAll()을 메소드로 가진다.  
 >Set은 데이터의 중복을 허용하지않으므로, equals() 와 hashCode() 메소드를 구현하는 부분이 중요하다.  
 >추가로 removeAll() 메소드는 컬렉션을 매개 변수로 받아서, 데이터를 다 지워버린다.  
@@ -84,7 +85,7 @@
 
 #
 >### HashSet 사용법
->
+>```java
 >        String [] cars = new String[]{
 >            "Tico", "Sonata", "BMW", "Benz",
 >            "Lexus", "Mustang", "Grandeure",
@@ -92,10 +93,10 @@
 >            "BMW", "Lexus", "Carnibal", "SM5",
 >            "SM7", "SM3", "Tico"
 >        };
->
+>```
 >cars라는 배열에 중복된 데이터 값이 들어가있다.  
 >### **HashSet 생성**
->
+>```java
 >        public int getCarKinds(String[] cars){
 >            if(cars == null){
 >                return 0;
@@ -110,27 +111,28 @@
 >            printCarSet(carSet);
 >            return carSet.size();
 >        }
->
+>```
 >HashSet 생성자로 String으로 받는 **객체**를 만들어주고,   
 >carSet 객체에 배열로 선언된 **cars 에있는 데이터를 더해준다.**  
 >
 >### **결과**
+>```java
 >        Carnibal Sonata Mustang BMW Benz i30 SM5 Tico SM3 SM7 Lexus Grandeure The Beetle Mini Cooper
 >        14
->
+>```
 >중복되는 데이터 없이 출력해준다. 이때 **저장된 순서 상관없이** 출력함으로 당황하지마라.  
->
 
 #
 >### 번외)
 >위에서 출력하는 방식이 for() 방식으로 출력했는데, **객체를 얻는 방식인 iterator**를 사용해도된다.  
->
+>```java
 >        public void printCarSet2(Set<String> carSet){
 >            Iterator<String> iterator = carSet.iterator();
 >            while(iterator.hasNext()){
 >                System.out.print(iterator.next() + " ");
 >            }
 >        }
+>```
 >위처럼 반복할 객체 타입으로 iterator를 생성해주면서 반복 객체를 iterator로 넘겨주면된다.  
 >그리고 iterator를 사용하면 **hasNext() 메소드를 통해 다음 객체 값이 있는지 확인**후  
 >**next() 메소드를 통해 iterator에 있는 값**을 출력해준다.  
@@ -162,12 +164,12 @@
 ## **LinkedList 개념과 사용법**
 
 >### LinkedList 상속관계
->
+>```java
 >        java.lang.Object
 >            java.util.AbstractCollection<E>
 >                java.util.AbstractList<E>
 >                    java.util.AbstractSequentialList<E>
->
+>```
 >ArrayList 클래스나 Vector 클래스와 상속관계가 비슷하지만, 부모가 **AbstractSequentialList**이다.  
 >AbstractList와 AbstractSequentialList의 차이점은 **add(), set(), remove() 메소드 구현내용이 상이하다.**  
 >
@@ -205,10 +207,10 @@
 >|Object|set(int, Object)|LinkedList 객체의 특정 위치에 있는 데이터를 수정한다. 그리고, 기존에 있던 데이터를 리턴한다.|
 >|boolean|addAll(collection)|매개 변수로 넘긴 컬렉션의 데이터를 추가한다.|
 >|boolean|addAll(int, collection)|매개 변수로 넘긴 컬렉션의 데이터를 지정된 위치에 추가한다.|
->
 
 #
 >### LinkedList 주요 메소드 사용
+>```java
 >        public void checkLinkedList1(){
 >            LinkedList<String> link = new LinkedList<>();
 >            link.add("A");        
@@ -229,8 +231,9 @@
 >            System.out.println("EX = " + link.set(0, "I"));
 >            System.out.println(link);
 >        }
->
+>```
 >### **결과**
+>```java
 >        [B, A]
 >        [C, B, A]
 >        [C, B, A, D]
@@ -240,10 +243,9 @@
 >        [H, G, C, B, A, D, E, F]
 >        EX=H
 >        [I, G, C, B, A, D, E, F]
->
+>```
 >이중에서 대표적으로 자주 사용하는 메소드는 **맨 앞추가 addFirst(), 맨 뒤추가 add() / addLast()** 이다.  
 >참고로 혼용해서 사용하면 이해가 힘들기 떄문에 **한가지로 사용**하는게 좋다.  
->
 
 #
 >### LinkedList 특정 위치 데이터 꺼내기
