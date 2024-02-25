@@ -1,3 +1,4 @@
+<!---다함--->
 # Java Basic Part 1
 
 * [생활코딩 - 쉽게 배우는 자바 이동](https://github.com/Hasegos/backendStudy/tree/master/Java%20Basic/JAVA_Coding_For_Life)
@@ -11,6 +12,7 @@
     * [6. 상속](#상속instance)
     * [7 .기타(기능의 뜻,용어....)](#기타기능의-뜻용어)
 
+<!---목차 1--->
 ## 명령어 주의 사항
 
 >**명령어 실행전 위치 확인**을 꼭해야한다.    
@@ -23,6 +25,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
+<!---목차 2--->
 ## Complie, Run, Input
 >java 프로그램을 이용안하고도 직접 **Complie,Run,Input** 3가지를 실행 할 수 있다.  
 >### **Complie** : cmd를 이용해서 java 파일 있는 곳에 이동 후
@@ -54,6 +57,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
+<!---목차 3--->
 ## 라이브러리 vs 패키지 vs 모듈
 > ### 모듈(module) 
 >모듈(module)이란 프로그램을 구성하는 요소로,관련 데이터와 함수를 **하나**로 묶은 단위  
@@ -86,6 +90,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
+<!---목차 4--->
 ## 계층적인 구조
 >```java
 >             .
@@ -114,6 +119,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
+<!---목차 5--->
 ## 클래스와 패키지 구조
 >클래스(class)이란 **비슷하거나 동일한 행위를 수행하는 객체(object)의 집합**  
 >```java       
@@ -131,6 +137,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
+<!---목차 6--->
 ## 상속(Instance)
 >상속(instance)이란 하나의 클래스(class)를 복제해서 **서로다른 데이터의 값과 서로 같은 메소드를 가진 복제본 제작** 으로 생각하면된다.  
 >추가적으로 기존의 클래스에 _기능을 추가하거나 재정의하여 새로운 클래스를 정의_ 할 수 있다.  
@@ -205,6 +212,7 @@
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
+<!---목차 7--->
 ## 기타(기능의 뜻,용어....)
 >### 사이트 팁
 >Launch4j&ensp; : &ensp;jdk을 안깔아도 사용이 가능한 사이트  
