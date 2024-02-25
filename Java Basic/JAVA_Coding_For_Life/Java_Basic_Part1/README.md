@@ -26,28 +26,30 @@
 ## Complie, Run, Input
 >java 프로그램을 이용안하고도 직접 **Complie,Run,Input** 3가지를 실행 할 수 있다.  
 >### **Complie** : cmd를 이용해서 java 파일 있는 곳에 이동 후
->
+>```java
 >        1.javac 파일 이름.java   
 >        2.java -cp "클래스 경로" 파일 이름.java          
+>```
 >클래스 경로에 "."는 현재 위치이고 ";" 사용 후 다른 폴더를 추가 할 수 있다.  
 >참고) 윈도우는 ";" &ensp;&ensp; 리눅스는 ":" 이다.  
 
 #
 >### **Run** : Complie된 java 파일이 있는 곳 이동 후
->
+>```java
 >        1.java 파일 이름   
 >        2.java 파일 이름 -cp "클래스 경로" 파일 이름  
->
->
+>```
 >위와 같은 방법을 이용한다.  
 
 #
 >### **Input** : main(parameter) 있는 파일에 이동 후
->        
+>```java        
 >        1.java 파일 이름 "입력값"  
+>```
 >위와 같이 작성하면 되고 추가 할 경우   
->
+>```java
 >        1.java 파일 이름 "입력값" "입력값" ...   
+>```
 >식으로 작성하면된다.  
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
@@ -69,7 +71,8 @@
 
 #    
 > ### 큰 흐름
->라이브러리  -> 패키지 -> 모듈 
+>```java
+>    라이브러리  -> 패키지 -> 모듈 
 >
 >                    폴더(floder)
 >        패키지                      main.java
@@ -79,10 +82,12 @@
 >        모듈2.java        
 >         ↓
 >        모듈3.java
+>```
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
 ## 계층적인 구조
+>```java
 >             .
 >             .
 >             .   
@@ -101,8 +106,7 @@
 >                         OS
 >
 >                      Computer
->
->
+>```
 >여기서**API(Aplication Programming Interface)** 이란   
 >_정의 및 프로토콜 집합_ 을 사용하여 두 소프트웨어 구성 요소가 **서로 통신할 수 있게 하는 메커니즘**  
 >추가적으로 이런 형태를 가진 _자바(java)_ 는 **객체 지향 프로그램(object-oriented-programming)** 이다.  
@@ -112,8 +116,7 @@
 
 ## 클래스와 패키지 구조
 >클래스(class)이란 **비슷하거나 동일한 행위를 수행하는 객체(object)의 집합**  
->
->       
+>```java       
 >        Package  
 >          
 >           ↓ 
@@ -121,7 +124,8 @@
 >         class 1  
 >
 >        
->         class 2     
+>         class 2    
+>```
 >위와 같이 _한 패키지안에 클래스가 **여러개 존재** 할 수 있는 형태의 구조_ 로 지니고 있다.  
 >추가적으로 클래스(class)라는 곳에는 **변수(variable)와 메소드(method)** 로 이루어져 있다.  
 ---
@@ -166,6 +170,7 @@
 >
 >
 >### 상속(instance)의 큰틀
+>```java
 >           자식 클래스
 >
 >              ↓
@@ -178,13 +183,13 @@
 >
 >              
 >          추가 되는 맴버
->
->
+>```
 >위와 같은 구조로 되어있으며, _부모 클래스 안에 상속된 맴버를 자식 클래스가 사용할 수 있다._  
 >추가적으로 **자식 클래스에 맴버를 추가**해서 사용이 가능하다.  
 
 #
 >### 모든 클래스의 상속 틀
+>```java
 >             Object
 > 
 >               ↓
@@ -196,6 +201,7 @@
 >        package                                       | 
 >                                                      |    
 >            자식 클래스(class) -> (object, variable, method)
+>```
 ---
 ![arrow_up_circle_icon_128946 (1)](https://github.com/Hasegos/Study_CS/assets/93961708/56bc983f-ea61-48fc-b733-fb8118b3aad5)[목차로 돌아가기](#java-basic-part-1)
 
