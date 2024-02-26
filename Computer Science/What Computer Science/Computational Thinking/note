@@ -87,3 +87,39 @@ e |↗
 int main(void){
     printf("hello, world\n");
 }
+
+------ 스크래치 기초 ------
+
+퍼즐 조각을 가져와 프로그래밍할 수 있는 언어
+
+input -> algorithm -> output
+
+1.hello, world -> sat - > hello, world
+
+2.what's your name -> ask   and wait  -> answer
+
+3.hello, answer -> join -> hello, David
+
+최종 결과 : hello, Davie -> say -> 'hello, Davie'
+
+반복문, 함수, 조건, 불리언 표현 등을 할 수 있다.
+
+------ 스크래치 심화 ------
+
+컴퓨터는 0부터 수를 센다
+
+이벤트 : 프로그램끼리 주고받는 비밀 메시지
+추상화 개념 : 기능을 어떻게 구현했는지 보단 행위를할 수 있는지만 신경
+
+Quiz 1
+
+1번 : 4비트
+2번 : 101 100 119 105 116 104
+3번 : 3번
+4번 : 1110
+5번 : 11
+6번 : 트랜지스터
+7번 : 의사코드
+8번 : 컴파일
+9번 : true
+10번 : 뒷 페이지의 절반을 편다
