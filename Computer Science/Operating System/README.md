@@ -1,6 +1,6 @@
 # 운영체제 정리
 
-* [CS 지식 (DB, 네트워크, OS) 저장소 이동](https://github.com/Hasegos/Study_CS/tree/master/Computer%20Science)
+* [CS 지식 저장소 이동](https://github.com/Hasegos/backendStudy/tree/master/Computer%20Science)
 
 - 목차
     * [1. 운영체제 기초](https://github.com/Hasegos/Study_CS/blob/master/Computer%20Science/Operating%20System/OS_Basic.md)             
