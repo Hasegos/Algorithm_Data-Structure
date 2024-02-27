@@ -1,7 +1,7 @@
 <!---완료--->
 # 운영체제 기초
 
-* [운영체제 정리 이동]()
+* [운영체제 정리 이동](https://github.com/Hasegos/backendStudy/tree/master/Computer%20Science/Operating%20System)
 
 * 목차
     * [1. 운영체제란](#운영체제란)
