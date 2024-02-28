@@ -3,8 +3,8 @@
 * [CS 지식 저장소 이동](https://github.com/Hasegos/backendStudy/tree/master/Computer%20Science)
 
 * 목차
-    * [1. 컴퓨팅 사고](https://github.com/Hasegos/backendStudy/tree/master/Computer%20Science/What%20Computer%20Science/C%20Language)
-    * [2. C 언어](https://github.com/Hasegos/backendStudy/tree/master/Computer%20Science/What%20Computer%20Science/Computational%20Thinking)
+    * [1. 컴퓨팅 사고](https://github.com/Hasegos/backendStudy/tree/master/Computer%20Science/What%20Computer%20Science/Computational%20Thinking)
+    * [2. C 언어](https://github.com/Hasegos/backendStudy/tree/master/Computer%20Science/What%20Computer%20Science/C%20Language)
     * [3. 배열]()
     * [4. 알고리즘]()
     * [5. 메모리]()
