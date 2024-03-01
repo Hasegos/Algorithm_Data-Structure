@@ -3,7 +3,7 @@
 // const : 상수
 // const int N = 3;
 
-int N = 0;
+int N = 0;  
 float average(int lenght,int arr[]);
 int get_int(char *str);
 
