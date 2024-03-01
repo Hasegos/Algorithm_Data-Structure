@@ -1,0 +1,12 @@
+Quiz 3
+
+1번 : 디버깅(debugging)
+2번 : 디버깅(debugging)
+3번 : printf 함수를 들여쓰기해서 중괄호{} 사이에 포함되었음을 표현한다.
+4번 : char edwith[5];
+5번 : for(int i = 0; i < 10; i++){...scores[i]...}
+6번 : names[0][2]
+7번 : 3
+8번 : make
+9번 : 버그(bug)
+10번 : 문자열(string)은 포함된 문자(char) 개수 만큼의 메모리 자리를 차지한다.
