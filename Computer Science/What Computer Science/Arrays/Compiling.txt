@@ -1,0 +1,6 @@
+preprocessing : 전처리
+#include<stdio.h> -> int printf(string format, ...);
+사전에 헤더 파일 내의 해당하는 코드로 대체함
+compiling : 컴파일러를 통해 어셈블리어로 바뀜
+assembling : 어셈블링을 통해 0과 1로 머신코드로 바꿔줌
+linking : 이렇게 바꾼 머신코드들을 하나의 파일로 연결시켜줌
