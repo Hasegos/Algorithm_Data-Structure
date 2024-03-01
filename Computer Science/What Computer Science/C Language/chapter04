@@ -27,3 +27,16 @@
     그래서 main()을 위로 둘수가 없음 그러나 우리가 사용할 함수를 main() 위에 선언해주면 사용가능!
     함수 프로토타입 : 실제 함수를 그대로 가져온 것
     
+
+Quiz 2
+
+1번 : int main(void)
+2번 : printf("Hello!");
+3번 : $clang hello.c
+4번 : printf("Hello, %s",name);
+5번 : if(x == y)
+6번 : %
+7번 : #include <stdio.h>
+8번 : void hello(int);
+9번 : for(int i = 0; i < 50; i++)
+10번 : 오버플로우
