@@ -1,0 +1,10 @@
+속도 : bubble search <<<<< selection search <<<<<< merge search 
+Big-O : O(n log n)
+merge search가 앞도적으로 bubble search, selection search 둘 보다 빠름 
+Θ(Theta) : 상한선과 하한선이 같을때 사용
+
+Θ(n^2) : selection search(선택 정렬)
+Θ(n log n) : merge search(병합 정렬)
+Θ(n)
+Θ(log n)
+Θ(1)
