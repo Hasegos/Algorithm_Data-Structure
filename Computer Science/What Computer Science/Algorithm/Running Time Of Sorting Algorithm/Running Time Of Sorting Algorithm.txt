@@ -1,0 +1,39 @@
+실행시간의 상한
+
+    ● O(n^2) : bubble search(버블 정렬), selection search(선택 정렬)
+    ● O(n log n)    
+    ● O(n) : linear search(선형 탐색)
+    ● O(log n) : binary search(이진 탐색)
+    ● O(1)
+
+    ● Ω(n^2) : selection sort(선택 정렬)
+    ● Ω(n log n) 
+    ● Ω(n) : bubble sort(버블 정렬) <- 의사코드를 2번째로 바꿀시
+    ● Ω(log n) : 
+    ● Ω(1) : linear search(선형 탐색), binary search(이진 탐색) 
+
+버블 정렬
+
+기존 의사코드
+
+Repeat n–1 times
+
+    For i from 0 to n–2
+
+        If i'th and i+1'th elements out of order
+
+            Swap them
+
+Ω(n) 의사코드
+Repeat until no swaps
+
+    For i from 0 to n–2
+
+        If i'th and i+1'th elements out of order
+
+            Swap them
+
+
+
+
+
