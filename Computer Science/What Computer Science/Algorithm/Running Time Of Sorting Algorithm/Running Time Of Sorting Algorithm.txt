@@ -32,8 +32,3 @@ Repeat until no swaps
         If i'th and i+1'th elements out of order
 
             Swap them
-
-
-
-
-
