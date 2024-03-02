@@ -25,6 +25,7 @@ public class MaxFinder {
         System.out.println(getMin("c", "a", "b"));
     }
     // 매개변수는 몇개인지 모르고 Comparable을 확장해서 받는다.
+    @SuppressWarnings("unchecked")
     public <T extends Comparable<T>> T getMax(T ...a){
         T maxT = a[0];
         for(T tempT : a){
@@ -35,6 +36,7 @@ public class MaxFinder {
         return maxT;
     }
     // 제네릭으로 입력받는 값들을 비교를 위해 Comparable을 확장 받음    
+    @SuppressWarnings("unchecked")
     public <T extends Comparable<T>> T getMin(T ...a){
         T minT = a[0];
         for(T tempT : a){

@@ -17,6 +17,7 @@ public class GenericSample {
         sample.checkGenericDTO();        
     }
     
+    @SuppressWarnings("unused")
     public void checkCastingDTO(){
         // StringBuilder와 StringBuffer가 어디에 있는지 헷갈릴수있다.
         CastingDTO dto1 = new CastingDTO();
@@ -44,15 +45,16 @@ public class GenericSample {
         }       
     }
     
+    @SuppressWarnings("unused")
     public void checkGenericDTO(){
         // 제네릭을 사용해서 미리 구분을 지어주면 불러올때 casting안해도된다.
         CastingGenericDTO<String> dto1 = new CastingGenericDTO<String>();
         dto1.setObject(new String());
         CastingGenericDTO<StringBuffer> dto2 = new CastingGenericDTO<StringBuffer>();
-        dto1.setObject(new StringBuffer());
+        dto2.setObject(new StringBuffer());
         CastingGenericDTO<StringBuilder> dto3 = new CastingGenericDTO<StringBuilder>();
-        dto1.setObject(new StringBuilder());
-        
+        dto3.setObject(new StringBuilder());
+                
         String temp1 = dto1.getObject();
         StringBuffer temp2 = dto2.getObject();
         StringBuilder temp3 = dto3.getObject();      
