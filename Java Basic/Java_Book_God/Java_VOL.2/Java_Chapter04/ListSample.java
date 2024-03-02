@@ -17,11 +17,12 @@ public class ListSample {
         sample.checkArrayList7();
         sample.checkArrayList8();
     }
+    @SuppressWarnings({ "unused" })
     public void checkArrayList1(){
-        ArrayList<String> list = new ArrayList<>();
-        list.add(new Object());
+        ArrayList<String> list = new ArrayList<String>();
+        // list.add(new Object());
         list.add("ArrayListSample");
-        list.add(new Double(1));
+        // list.add(new Double(1));
         
         // 초기값 지정안하면 10개의 공간임으로 예측이 가능하면 초기값 넣기
         ArrayList<String> list2 = new ArrayList<>(100);
@@ -42,6 +43,7 @@ public class ListSample {
         }
     }
     
+    @SuppressWarnings("unused")
     public void checkArrayList3(){
         // 초기 배열크기는 10임으로 그이상의 위치에 넣으면 IndexOutOfBoundsException 이 발생한다.
         ArrayList<String> list = new ArrayList<>();
