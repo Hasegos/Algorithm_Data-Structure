@@ -31,6 +31,7 @@ public class JavaLangSystemPrint {
         // 여기서는 String.valueOf(obj)로 타입을 변환시켜서 출력했다.
         System.out.println(obj + " is object's value");
     }
+    @SuppressWarnings("null")
     public void printNullToString(){
         Object obj = null;
         System.out.println(obj.toString());
