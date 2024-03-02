@@ -19,9 +19,11 @@ public class ListSample {
     }
     @SuppressWarnings({ "unused" })
     public void checkArrayList1(){
-        ArrayList<String> list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<>();
+
+        // 오류 유발때문에 주석처리
         // list.add(new Object());
-        list.add("ArrayListSample");
+        list.add("ArrayListSample");        
         // list.add(new Double(1));
         
         // 초기값 지정안하면 10개의 공간임으로 예측이 가능하면 초기값 넣기
