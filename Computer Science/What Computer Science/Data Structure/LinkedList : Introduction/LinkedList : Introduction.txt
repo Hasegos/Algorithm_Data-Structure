@@ -1,0 +1,12 @@
+struct : 구조체를 이용해서 우리만의 자료 종류를 만들 수 있다.
+ex) 비트맵, 비트맵 헤더 등 
+. : 속성값을 가지고올때 사용
+Big-O : O(n)
+문자열에서 NULL는 문자열이 끝났다는것을 알림, list에서 NULL는 포인터
+node : 메모리 덩어리
+
+node 구조체
+typedef struct node{
+    int number;
+    struct node *next;    
+}node;
