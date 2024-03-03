@@ -1,0 +1,24 @@
+  list   : node *list = NULL;
+  list = n;
+________ -> ________
+|      |    |  2   |    node *n  = malloc(sizeof(node));
+|______|    |______|    (*n).number = 2; == n -> number = 2;
+            |      |    n -> next = NULL; 
+            |______|    if(n != NULL){
+                            n -> number = 2;
+                            n -> next = NULL;
+                        }
+
+________ -> ________
+|  2   |    |  4   |    node *n  = malloc(sizeof(node));
+|______|    |______|    if(n != NULL){
+|      |    |      |        n -> number = 4;
+|______|    |______|        n -> next = NULL
+                        }
+                        node *tmp = list;
+                        while(tmp -> next != NULL){
+                            tmp = tmp -> next;            
+                        }
+만약 제일 앞에 1를 추가하고 싶을 떄
+n -> next = list;
+list = n;
