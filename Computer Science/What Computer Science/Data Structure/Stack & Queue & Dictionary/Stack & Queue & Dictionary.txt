@@ -1,0 +1,8 @@
+큐(Queue) : FIFO(First In First Out) 선입 선출 특징의 자료구조
+enqueue - push: 줄에 들어가서 서는것
+dequeue - pop : 줄을 빠져나오는 것
+
+스택(stack) : LIFO(Last In First Out) 후입 선출 특징의 자료구조
+
+딕셔너리(Dictionary) : 다양한 쌍으로 이루어진 자료구조(해시 테이블이랑 동일한 개념)
+문자로도 참조가 가능
