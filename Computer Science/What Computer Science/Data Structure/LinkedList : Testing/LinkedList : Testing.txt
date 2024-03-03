@@ -3,6 +3,6 @@
 이로인해 이진 탐색이 불가능해졌다.
 O(n^2)
 O(n log n)
-O(n) : search, inseart(다 둘러보고 위치에 추가하면됨)
+O(n) : search, insert(다 둘러보고 위치에 추가하면됨)
 O(log n)
 O(1)
