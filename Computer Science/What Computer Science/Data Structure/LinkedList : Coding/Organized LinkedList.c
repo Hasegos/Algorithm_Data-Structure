@@ -3,6 +3,8 @@
 
 // LinkedList 구현 (추가, 삭제, 삽입)
 // 추가 - 재귀형식
+// 숫자가 존재하지않는다는거 한번만 출력 -> 해결
+// 구조체 number와 매개변수 number 정리하기
 typedef struct Node
 {
     int number;
@@ -12,12 +14,16 @@ Node *addNode(Node *next, int number); // 추가
 Node *DeletNode(Node *next, int number); // 삭제
 Node *Search(Node *node, int number); // 탐색
 void ShowAllData(Node *node); // 전체보기
+Node *printNumber01(Node *list, int number); // 메뉴 1번
+void printNumber02(Node *list,int number); // 메뉴 2번
+Node *printNumber03(Node *list, int number); // 메뉴 3번
 
-int main(void){
-    Node *list = NULL; // 널로 초기화    
-
-    int input, number;    
-    printf("노드 하고싶은 일을 고르세요. (0 번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");
+int check = 0; // 숫자 존재하지않을때 체크
+    
+int main(void){   
+    Node *list = NULL; // 널로 초기화
+    int input, number = 0;    
+    printf("하고싶은 일을 고르세요.  (0번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");
     while(1){       
         printf("입력 >>>>>>>>> ");        
         scanf("%d",&input);
@@ -26,51 +32,19 @@ int main(void){
             break;         
         }        
         if(input == 1){           
-            printf("------추가 하고싶은 숫자를 입력해주세요------\n");
-            printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
-            while (1)
-            {                
-                printf("입력 >>>>>>>>> ");        
-                scanf("%d",&number);                
-                if(number == 0){
-                    printf("\n노드 하고싶은 일을 고르세요. (0 번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");                    
-                    break;
-                }
-                list = addNode(list,number);
-            }         
+            list = printNumber01(list,number);
         }
         else if(input == 2){             
-            printf("------탐색 하고싶은 숫자를 입력해주세요------\n");
-            printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
-            while (1)
-            {
-                printf("입력 >>>>>>>>> ");
-                scanf("%d",&number);
-                if(number == 0){
-                    printf("\n노드 하고싶은 일을 고르세요. (0 번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");                    
-                    break;
-                }
-                Node *search = Search(list,number);
-                if(search != NULL){
-                    printf("%d\n",search -> number);
-                }    
-            }           
+            printNumber02(list,number);
         }
         else if(input == 3){   
-            printf("------삭제하고싶은 숫자를 입력해주세요------\n");         
-            printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
-            while (1)
-            {
-                printf("입력 >>>>>>>>> ");
-                scanf("%d",&number);            
-                if(number == 0){
-                    printf("\n노드 하고싶은 일을 고르세요. (0 번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");                    
-                    break;
-                }
-                list = DeletNode(list,number);printf("해당 숫자가 존재하지않습니다.\n");
-            }            
+            list = printNumber03(list,number);
         } 
-        else if(input == 4){
+        else if(input == 4){            
+            if(list == NULL){
+                printf("존재하는 숫자가 없습니다\n");
+                continue;
+            }
             ShowAllData(list);
         }       
         else{
@@ -95,34 +69,89 @@ Node *DeletNode(Node *node, int number){
     if(node == NULL) return NULL;
     // 해당 숫자가 있는 경우
     if(node -> number == number){
+        check = 1;
         Node *nextNode = node -> Next;
         free(node);
         return nextNode;
-    }    
-    
+    }       
     // 해당 숫자가 존재하지않는 경우    
     node -> Next = DeletNode(node -> Next, number);
     return node;    
-    
 }
 
 Node *Search(Node *node, int number){    
     if(node == NULL) return NULL;
     // 해당 숫자가 있는 경우
     if(node -> number == number){
+        check = 1;
         return node;
     }
     // 없는 경우
-    node -> Next = Search(node -> Next, number);
-    return node;
+    return Search(node -> Next, number);    
 }
 
 void ShowAllData(Node *node){
-    if(node == NULL)
+    if(node == NULL){
         return;
-    
+    }   
     printf("%d\n",node -> number);
     ShowAllData(node -> Next);
 }
 
+Node *printNumber01(Node *list, int number){
+    printf("\n------추가 하고싶은 숫자를 입력해주세요------\n");
+    printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
+    while (1){                
+        printf("입력 >>>>>>>>> ");        
+        scanf("%d",&number);                
+        if(number == 0){
+            printf("\n하고싶은 일을 고르세요. (0 번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");                    
+            break;
+        }
+        list = addNode(list,number);
+    }
+    return list;     
+}
 
+void printNumber02(Node *list,int number){
+    printf("\n------탐색 하고싶은 숫자를 입력해주세요------\n");
+    printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
+    while (1){
+        printf("입력 >>>>>>>>> ");
+        scanf("%d",&number);
+        if(number == 0){
+            printf("\n하고싶은 일을 고르세요. (0 번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");                    
+            break;
+        }
+        Node *search = Search(list,number);
+        if(search == NULL){                        
+            printf("해당 숫자는 존재하지 않습니다.\n");   
+            continue;           
+        }        
+        else{            
+            printf("%d\n",search -> number);               
+        }        
+    }
+}
+Node *printNumber03(Node *list, int number){
+    printf("\n------삭제하고싶은 숫자를 입력해주세요------\n");         
+    printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
+    while (1){
+        printf("입력 >>>>>>>>> ");
+        scanf("%d",&number);            
+        if(number == 0){
+            printf("\n하고싶은 일을 고르세요. (0 번 : 종료  1번: 추가  2번 : 탐색  3번 : 삭제  4번 : 전체보기)\n");                    
+            break;
+        }
+        list = DeletNode(list,number);
+        if(list == NULL){
+            printf("더이상 지울 숫자가 존재하지않습니다.\n");
+            continue;
+        }
+        if(check == 0){
+            printf("해당 숫자는 존재하지 않습니다.\n");            
+        }
+        check = 0;
+    }     
+    return list;
+}
