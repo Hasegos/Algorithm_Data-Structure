@@ -3,8 +3,6 @@
 
 // LinkedList 구현 (추가, 삭제, 삽입)
 // 추가 - 재귀형식
-// 숫자가 존재하지않는다는거 한번만 출력 -> 해결
-// 구조체 number와 매개변수 number 정리하기
 typedef struct Node
 {
     int number;
@@ -14,12 +12,12 @@ Node *addNode(Node *next, int number); // 추가
 Node *DeletNode(Node *next, int number); // 삭제
 Node *Search(Node *node, int number); // 탐색
 void ShowAllData(Node *node); // 전체보기
+
 Node *printNumber01(Node *list, int number); // 메뉴 1번
 void printNumber02(Node *list,int number); // 메뉴 2번
 Node *printNumber03(Node *list, int number); // 메뉴 3번
 
 int check = 0; // 숫자 존재하지않을때 체크
-    
 int main(void){   
     Node *list = NULL; // 널로 초기화
     int input, number = 0;    
@@ -28,7 +26,8 @@ int main(void){
         printf("입력 >>>>>>>>> ");        
         scanf("%d",&input);
         if(input == 0){
-            printf("시스템을 종료합니다.\n");   
+            printf("시스템을 종료합니다.\n");            
+            free(list); // 종료시 메모리해제
             break;         
         }        
         if(input == 1){           
@@ -74,11 +73,11 @@ Node *DeletNode(Node *node, int number){
         free(node);
         return nextNode;
     }       
-    // 해당 숫자가 존재하지않는 경우    
+    // 해당 숫자 삭제후
     node -> Next = DeletNode(node -> Next, number);
     return node;    
 }
-
+// 탐색 함수
 Node *Search(Node *node, int number){    
     if(node == NULL) return NULL;
     // 해당 숫자가 있는 경우
@@ -89,7 +88,7 @@ Node *Search(Node *node, int number){
     // 없는 경우
     return Search(node -> Next, number);    
 }
-
+// 전체보여주기 함수
 void ShowAllData(Node *node){
     if(node == NULL){
         return;
@@ -97,7 +96,7 @@ void ShowAllData(Node *node){
     printf("%d\n",node -> number);
     ShowAllData(node -> Next);
 }
-
+// 메뉴 1번 : 추가
 Node *printNumber01(Node *list, int number){
     printf("\n------추가 하고싶은 숫자를 입력해주세요------\n");
     printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
@@ -112,7 +111,7 @@ Node *printNumber01(Node *list, int number){
     }
     return list;     
 }
-
+// 메뉴 2번 : 탐색
 void printNumber02(Node *list,int number){
     printf("\n------탐색 하고싶은 숫자를 입력해주세요------\n");
     printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
@@ -133,6 +132,7 @@ void printNumber02(Node *list,int number){
         }        
     }
 }
+//메뉴 3번 : 삭제
 Node *printNumber03(Node *list, int number){
     printf("\n------삭제하고싶은 숫자를 입력해주세요------\n");         
     printf("입력을 정지하고 싶으면 0을 입력해주세요.\n");
