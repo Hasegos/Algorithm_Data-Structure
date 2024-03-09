@@ -12,7 +12,7 @@ import java.util.Scanner;
     이를 해결한 방법중 하나가 Separate Chaining(분리 연결법)이다.
     Separate Chaining는 같은 hash에 저장시 linkedlist로 연결시켜 저장하는 방식이다.
 */
-public class HashTable {  
+public class seperateChaining {  
     class Node{
         private String key;
         private String value;
@@ -25,7 +25,7 @@ public class HashTable {
     // 클래스 Node 타입으로 table 배열 생성    
     private LinkedList<Node>[]table ;     
     // HashTable 생성  <- 제네릭 배열은 생성하면안됨.
-    public HashTable(int size){        
+    public seperateChaining(int size){        
         table = new LinkedList[size];        
     }
     // hashcode를 통해 구분
@@ -89,7 +89,7 @@ public class HashTable {
         System.out.print("입력 >>>>>  ");
         int number = sc.nextInt();
         String[] key = new String[number];
-        HashTable table = new HashTable(number);
+        seperateChaining table = new seperateChaining(number);
         sc.nextLine();
         for(int i = 0; i < number; i++){                        
             System.out.println((i+1) + "번째");
