@@ -1,5 +1,6 @@
 # 자료구조 정리
-* 목차
+* [CS 지식 & 개발 언어 공부 및 저장소 이동](https://github.com/Hasegos/backendStudy/tree/master?tab=readme-ov-file)  
+* 목차  
   * [C 언어]()
   * [Java 언어]()
   
