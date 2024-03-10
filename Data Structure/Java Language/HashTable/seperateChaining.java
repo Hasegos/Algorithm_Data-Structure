@@ -1,6 +1,6 @@
 package HashTable;
 import java.util.LinkedList;
-import java.util.Scanner;
+import java.util.Scanner; 
 /*
     Seperate Chaining(분리 연결법)
 
