@@ -3,7 +3,15 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
+/*
+    Queue(큐)는 선입선출 (First In First Out) FIFO 특징이다.
+    enqueue : 맨 뒤에 데이터 추가
+    dequeue : 맨 앞쪽 의 데이터 삭제
 
+    삽입 : Big-O : O(1)
+    삭제 : Big-O : O(1)
+    탐색 : Big-O : O(n)
+*/
 public class queue {
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
