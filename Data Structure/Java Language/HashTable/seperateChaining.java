@@ -1,9 +1,9 @@
 package HashTable;
 import java.util.LinkedList;
 import java.util.Scanner;
-
-//  Seperate Chaining(분리 연결법)
 /*
+    Seperate Chaining(분리 연결법)
+
     HashTable : (key와 value)을 1:1 매칭해서 저장시킨다.
     키만 알면 값을 바로 가져올 수 있어서 찾기가 빠르다.
     그러므로 Big-O : O(1) 이다.
@@ -11,6 +11,10 @@ import java.util.Scanner;
     그래서 이경우에는 Big-O : O(n)이다.
     이를 해결한 방법중 하나가 Separate Chaining(분리 연결법)이다.
     Separate Chaining는 같은 hash에 저장시 linkedlist로 연결시켜 저장하는 방식이다.
+    대신,이진 트리 탐색으로 만들었기 때문에 밸런스가 좋아야함.
+
+    + 해시 함수 : 임의의 길이를 갖는 임의의 데이터에 대해 고정된 길이의 데이터로 매핑
+      그래서  같은 key -> 같은 value / 다른 key -> 같은 value 로 인해 해시충돌이 일어난다.
 */
 public class seperateChaining {  
     class Node{
