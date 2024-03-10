@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Stack;
 import java.util.Iterator;
 /*
-    Stack(스택) : 후입선출(Last In First Out)
+    Stack(스택) : 후입선출(Last In First Out) LIFO 특징이다.    
     
     가장 상단에 있는 값을 가지고 사용한다.
     1.push - 가장 상단에 값 추가
@@ -11,6 +11,10 @@ import java.util.Iterator;
     3.search - 입력받은 데이터의 위치 반환
     4.pop - 가장 상단 값 삭제후 반환
     5.empty - 비어있는지 확인
+
+    삽입 : Big-O : O(1)
+    삭제 : Big-O : O(1)
+    탐색 : Big-O : O(n)
 */
 public class stack {    
     public static Scanner sc = new Scanner(System.in);
