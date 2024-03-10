@@ -13,7 +13,7 @@ import java.util.Iterator;
     5.empty - 비어있는지 확인
 
     삽입 : Big-O : O(1)
-    삭제 : Big-O : O(1)
+    삭제 : Big-O : O(1) 
     탐색 : Big-O : O(n)
 */
 public class stack {    
